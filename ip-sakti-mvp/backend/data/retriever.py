@@ -55,6 +55,22 @@ INGREDIENT_ALIASES = {
         "aloe_vera",
         "aloe_barbadensis",
         "barbadensis"
+    },
+
+    # Retrieval aliases only. They do not establish efficacy,
+    # safety, TK status, ABS obligations, or legal status.
+    "ginger": {
+        "ginger",
+        "zingiber",
+        "zingiber_officinale"
+    },
+
+    "chilli": {
+        "chilli",
+        "chili",
+        "capsicum",
+        "capsicum_annuum",
+        "capsaicin"
     }
 }
 
@@ -332,6 +348,99 @@ def find_domain_concepts(
     return found
 
 
+
+
+# =========================================================
+# CONTEXT ALIGNMENT HELPERS
+# =========================================================
+
+def _context_tokens(text: Any) -> set:
+    return tokenize(str(text or ""))
+
+
+def _alignment_score(reference: Any, evidence_text: Any) -> float:
+    """Measure lexical/context alignment; never uses retrieval similarity."""
+    ref_tokens = _context_tokens(reference)
+    ev_tokens = _context_tokens(evidence_text)
+    if not ref_tokens or not ev_tokens:
+        return 0.0
+    overlap = len(ref_tokens & ev_tokens) / max(1, len(ref_tokens))
+    return round(min(1.0, overlap), 4)
+
+
+def _purpose_alignment(product, evidence_text: str) -> float:
+    purpose = getattr(product, "purpose", "")
+    return _alignment_score(purpose, evidence_text)
+
+
+def _product_type_alignment(product, evidence_text: str) -> float:
+    product_type = getattr(product, "product_type", "")
+    return _alignment_score(product_type, evidence_text)
+
+
+def _jurisdiction_alignment(product, evidence_text: str) -> float:
+    jurisdiction = getattr(product, "jurisdiction", "")
+    return _alignment_score(jurisdiction, evidence_text)
+
+
+def _context_profile(product, evidence_text: str) -> Dict[str, float]:
+    return {
+        "purpose_alignment": _purpose_alignment(product, evidence_text),
+        "product_type_alignment": _product_type_alignment(product, evidence_text),
+        "jurisdiction_alignment": _jurisdiction_alignment(product, evidence_text),
+    }
+
+
+def _context_adjusted_score(
+    base_score: float,
+    ingredient_matches: List[str],
+    context: Dict[str, float],
+    domain_match: bool,
+) -> float:
+    """
+    Context-first retrieval ranking.
+
+    Ingredient matches are supporting signals only.
+    Purpose and product-type alignment carry more weight.
+    This score is for retrieval ranking, not legal confidence.
+    """
+    purpose = float(context.get("purpose_alignment", 0.0) or 0.0)
+    product_type = float(context.get("product_type_alignment", 0.0) or 0.0)
+    jurisdiction = float(context.get("jurisdiction_alignment", 0.0) or 0.0)
+
+    ingredient_bonus = min(len(ingredient_matches) * 0.75, 1.5)
+
+    context_bonus = (
+        purpose * 8.0
+        + product_type * 3.0
+        + jurisdiction * 1.0
+    )
+
+    domain_bonus = 1.5 if domain_match else 0.0
+
+    score = (
+        float(base_score)
+        + ingredient_bonus
+        + context_bonus
+        + domain_bonus
+    )
+
+    # Ingredient-only matches cannot become strong context evidence.
+    if ingredient_matches and purpose < 0.25:
+        score = min(score, float(base_score) + 1.5)
+
+    if ingredient_matches and product_type < 0.25:
+        score = min(score, float(base_score) + 1.5)
+
+    # Reward genuinely coherent product context.
+    if purpose >= 0.75 and product_type >= 0.50:
+        score += 2.0
+    elif purpose >= 0.50:
+        score += 1.0
+
+    return round(score, 4)
+
+
 # =========================================================
 # LOAD MAIN CORPUS
 # =========================================================
@@ -562,23 +671,33 @@ def retrieve_tk_vector_evidence(
         ""
     )
 
+    # Context-first semantic query.
+    # Ingredients are supporting context, not the primary signal.
     query_parts = [
 
+        "Product:",
         str(product_name),
 
+        "Purpose:",
+        str(purpose),
+
+        "Product type:",
+        str(product_type),
+
+        "Jurisdiction:",
+        str(getattr(product, "jurisdiction", "")),
+
+        "Traditional knowledge:",
+        str(getattr(product, "based_on_traditional_knowledge", "")),
+
+        "Ingredients:",
         " ".join(
             str(x)
             for x in ingredients
         ),
 
-        str(purpose),
-
-        str(product_type),
-
         "traditional knowledge",
-
         "traditional use",
-
         "Ayurveda"
     ]
 
@@ -696,23 +815,25 @@ def retrieve_tk_vector_evidence(
         # Semantic score + lexical bonuses
         # -------------------------------------------------
 
-        score = similarity * 10
-
-        if ingredient_matches:
-
-            score += (
-                len(ingredient_matches) * 5
-            )
+        base_score = similarity * 10
 
         if matched_terms:
-
-            score += (
-                len(matched_terms) * 1.5
+            base_score += min(
+                len(matched_terms) * 1.5,
+                4.5
             )
 
-        if ingredient_matches and matched_terms:
+        context = _context_profile(
+            product,
+            text
+        )
 
-            score += 4
+        score = _context_adjusted_score(
+            base_score,
+            ingredient_matches,
+            context,
+            domain_match=True
+        )
 
         results.append({
 
@@ -725,6 +846,8 @@ def retrieve_tk_vector_evidence(
                 similarity,
                 4
             ),
+
+            "retrieval_similarity_is_not_confidence": True,
 
             "domain": "TK",
 
@@ -744,6 +867,12 @@ def retrieve_tk_vector_evidence(
 
             "ingredient_matches":
                 ingredient_matches,
+
+            "context_alignment":
+                context,
+
+            "ingredient_evidence_is_supporting_only":
+                bool(ingredient_matches),
 
             "domain_match":
                 True,
@@ -853,26 +982,16 @@ def retrieve_corpus_evidence(
             item_domain in requested_domains
         )
 
-        score = 0
-
-        # -------------------------------------------------
-        # Ingredient
-        # -------------------------------------------------
-
-        if ingredient_matches:
-
-            score += (
-                len(ingredient_matches) * 8
-            )
+        base_score = 0.0
 
         # -------------------------------------------------
         # Relevant concepts
         # -------------------------------------------------
 
         if concepts:
-
-            score += (
-                len(set(concepts)) * 4
+            base_score += min(
+                len(set(concepts)) * 4,
+                12
             )
 
         # -------------------------------------------------
@@ -880,8 +999,19 @@ def retrieve_corpus_evidence(
         # -------------------------------------------------
 
         if domain_match:
+            base_score += 3
 
-            score += 3
+        context = _context_profile(
+            product,
+            text
+        )
+
+        score = _context_adjusted_score(
+            base_score,
+            ingredient_matches,
+            context,
+            domain_match
+        )
 
         # -------------------------------------------------
         # Relevance gate
@@ -894,23 +1024,13 @@ def retrieve_corpus_evidence(
 
             continue
 
-        # -------------------------------------------------
-        # Combination bonuses
-        # -------------------------------------------------
-
-        if ingredient_matches and concepts:
-
-            score += 5
-
-        if ingredient_matches and domain_match:
-
-            score += 5
-
         results.append({
 
             "score": score,
 
             "similarity": None,
+
+            "retrieval_similarity_is_not_confidence": True,
 
             "domain": item_domain,
 
@@ -939,6 +1059,12 @@ def retrieve_corpus_evidence(
 
             "ingredient_matches":
                 ingredient_matches,
+
+            "context_alignment":
+                context,
+
+            "ingredient_evidence_is_supporting_only":
+                bool(ingredient_matches),
 
             "domain_match":
                 domain_match,
@@ -1036,16 +1162,46 @@ def merge_evidence(
                 )
             ),
 
+            float(
+                item.get(
+                    "context_alignment",
+                    {}
+                ).get(
+                    "purpose_alignment",
+                    0.0
+                )
+                if isinstance(
+                    item.get("context_alignment", {}),
+                    dict
+                )
+                else 0.0
+            ),
+
+            float(
+                item.get(
+                    "context_alignment",
+                    {}
+                ).get(
+                    "product_type_alignment",
+                    0.0
+                )
+                if isinstance(
+                    item.get("context_alignment", {}),
+                    dict
+                )
+                else 0.0
+            ),
+
             len(
                 item.get(
-                    "ingredient_matches",
+                    "matched_terms",
                     []
                 )
             ),
 
             len(
                 item.get(
-                    "matched_terms",
+                    "ingredient_matches",
                     []
                 )
             )
@@ -1054,7 +1210,95 @@ def merge_evidence(
         reverse=True
     )
 
-    return combined[:top_k]
+        # Context relevance gate
+    filtered = []
+
+    for item in combined:
+
+        context = item.get(
+            "context_alignment",
+            {}
+        )
+
+        if not isinstance(context, dict):
+            context = {}
+
+        purpose_alignment = float(
+            context.get(
+                "purpose_alignment",
+                0.0
+            )
+        )
+
+        product_type_alignment = float(
+            context.get(
+                "product_type_alignment",
+                0.0
+            )
+        )
+
+        jurisdiction_alignment = float(
+            context.get(
+                "jurisdiction_alignment",
+                0.0
+            )
+        )
+
+        ingredient_matches = item.get(
+            "ingredient_matches",
+            []
+        )
+
+        matched_terms = item.get(
+            "matched_terms",
+            []
+        )
+
+        direct_context = (
+            purpose_alignment >= 0.50
+            and product_type_alignment >= 0.50
+        )
+
+        supporting_context = (
+            bool(matched_terms)
+            and (
+                purpose_alignment >= 0.25
+                or product_type_alignment >= 0.25
+                or jurisdiction_alignment >= 0.50
+            )
+        )
+
+        ingredient_only_mismatch = (
+            bool(ingredient_matches)
+            and not direct_context
+            and not supporting_context
+            and not matched_terms
+        )
+
+        if ingredient_only_mismatch:
+            continue
+
+        item["context_relevance"] = (
+            "direct"
+            if direct_context
+            else "supporting"
+            if supporting_context
+            else "weak"
+        )
+
+        filtered.append(item)
+
+    filtered.sort(
+        key=lambda item: (
+            1 if item.get("context_relevance") == "direct" else
+            0 if item.get("context_relevance") == "supporting" else
+            -1,
+            float(item.get("score", 0))
+        ),
+        reverse=True
+    )
+
+    return filtered[:top_k]
 
 
 # =========================================================
@@ -1075,6 +1319,10 @@ def retrieve_evidence(
 
     The TK index is searched automatically
     when "TK" is included in domains.
+
+    Ingredient matches are supporting retrieval signals only.
+    Final confidence must be calculated downstream using the full
+    product context and validated evidence.
     """
 
     corpus_results = retrieve_corpus_evidence(

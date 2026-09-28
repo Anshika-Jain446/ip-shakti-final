@@ -6,4 +6,13 @@ __pycache__/
 !.env.example
 .vscode/
 .idea/
-.DS_Store
+.DS_Store**/.venv/
+**/node_modules/
+**/__pycache__/
+**/.pytest_cache/
+**/.vite/
+**/.vite-temp/
+**/project_structure.txt
+**/.env
+**/.env.*
+!**/.env.example

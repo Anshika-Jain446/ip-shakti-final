@@ -1,0 +1,6134 @@
+{
+  "turmeric": {
+    "canonical_name": "turmeric",
+    "common_names": [
+      "haldi"
+    ],
+    "scientific_names": [
+      "Curcuma longa"
+    ],
+    "regional_names": [
+      "haldi"
+    ],
+    "forms": [
+      "powder",
+      "root",
+      "extract",
+      "oil"
+    ],
+    "common_product_contexts": [
+      "food/spice",
+      "cosmetic",
+      "ayush",
+      "supplement",
+      "research"
+    ],
+    "possible_uses": [
+      "food preparation",
+      "topical preparation",
+      "traditional preparation",
+      "extract preparation"
+    ],
+    "ambiguity_flags": [
+      "multi_context"
+    ]
+  },
+  "ginger": {
+    "canonical_name": "ginger",
+    "common_names": [
+      "adrak"
+    ],
+    "scientific_names": [
+      "Zingiber officinale"
+    ],
+    "regional_names": [
+      "adrak"
+    ],
+    "forms": [
+      "fresh root",
+      "powder",
+      "tea",
+      "extract",
+      "oil"
+    ],
+    "common_product_contexts": [
+      "food/spice",
+      "beverage",
+      "ayush",
+      "supplement",
+      "cosmetic",
+      "research"
+    ],
+    "possible_uses": [
+      "food preparation",
+      "beverage",
+      "traditional preparation",
+      "extract preparation",
+      "topical preparation"
+    ],
+    "ambiguity_flags": [
+      "multi_context"
+    ]
+  },
+  "neem": {
+    "canonical_name": "neem",
+    "common_names": [
+      "nim"
+    ],
+    "scientific_names": [
+      "Azadirachta indica"
+    ],
+    "regional_names": [
+      "neem",
+      "nim"
+    ],
+    "forms": [
+      "leaf",
+      "powder",
+      "oil",
+      "extract",
+      "seed"
+    ],
+    "common_product_contexts": [
+      "cosmetic",
+      "ayush",
+      "agricultural",
+      "traditional knowledge",
+      "research"
+    ],
+    "possible_uses": [
+      "hair preparation",
+      "skin preparation",
+      "traditional preparation",
+      "agricultural preparation",
+      "extract preparation"
+    ],
+    "ambiguity_flags": [
+      "multi_context"
+    ]
+  },
+  "aloe vera": {
+    "canonical_name": "aloe vera",
+    "common_names": [
+      "aloe"
+    ],
+    "scientific_names": [
+      "Aloe barbadensis",
+      "Aloe vera"
+    ],
+    "regional_names": [
+      "ghritkumari",
+      "kumari"
+    ],
+    "forms": [
+      "gel",
+      "juice",
+      "leaf",
+      "extract"
+    ],
+    "common_product_contexts": [
+      "cosmetic",
+      "beverage",
+      "ayush",
+      "supplement",
+      "research"
+    ],
+    "possible_uses": [
+      "skin preparation",
+      "hair preparation",
+      "beverage",
+      "traditional preparation",
+      "extract preparation"
+    ],
+    "ambiguity_flags": [
+      "multi_context"
+    ]
+  },
+  "tulsi": {
+    "canonical_name": "tulsi",
+    "common_names": [
+      "holy basil"
+    ],
+    "scientific_names": [
+      "Ocimum tenuiflorum",
+      "Ocimum sanctum"
+    ],
+    "regional_names": [
+      "tulsi"
+    ],
+    "forms": [
+      "leaf",
+      "powder",
+      "tea",
+      "extract",
+      "oil"
+    ],
+    "common_product_contexts": [
+      "beverage",
+      "ayush",
+      "traditional knowledge",
+      "supplement",
+      "cosmetic"
+    ],
+    "possible_uses": [
+      "tea",
+      "traditional preparation",
+      "oral preparation",
+      "topical preparation"
+    ],
+    "ambiguity_flags": [
+      "multi_context"
+    ]
+  },
+  "ashwagandha": {
+    "canonical_name": "ashwagandha",
+    "common_names": [
+      "ashwaganda",
+      "winter cherry",
+      "indian ginseng"
+    ],
+    "scientific_names": [
+      "Withania somnifera"
+    ],
+    "regional_names": [
+      "ashwagandha",
+      "asagandha"
+    ],
+    "forms": [
+      "root",
+      "powder",
+      "extract",
+      "capsule",
+      "tablet"
+    ],
+    "common_product_contexts": [
+      "ayush",
+      "supplement",
+      "research"
+    ],
+    "possible_uses": [
+      "traditional preparation",
+      "oral preparation",
+      "extract preparation"
+    ],
+    "ambiguity_flags": [
+      "multi_context"
+    ]
+  },
+  "amla": {
+    "canonical_name": "amla",
+    "common_names": [
+      "indian gooseberry"
+    ],
+    "scientific_names": [
+      "Phyllanthus emblica",
+      "Emblica officinalis"
+    ],
+    "regional_names": [
+      "amla",
+      "amlaki"
+    ],
+    "forms": [
+      "fruit",
+      "powder",
+      "juice",
+      "extract",
+      "oil"
+    ],
+    "common_product_contexts": [
+      "food",
+      "ayush",
+      "cosmetic",
+      "supplement"
+    ],
+    "possible_uses": [
+      "food preparation",
+      "beverage",
+      "hair preparation",
+      "traditional preparation"
+    ],
+    "ambiguity_flags": [
+      "multi_context"
+    ]
+  },
+  "brahmi": {
+    "canonical_name": "brahmi",
+    "common_names": [
+      "bacopa"
+    ],
+    "scientific_names": [
+      "Bacopa monnieri"
+    ],
+    "regional_names": [
+      "brahmi"
+    ],
+    "forms": [
+      "leaf",
+      "powder",
+      "extract",
+      "oil"
+    ],
+    "common_product_contexts": [
+      "ayush",
+      "supplement",
+      "cosmetic",
+      "research"
+    ],
+    "possible_uses": [
+      "traditional preparation",
+      "oral preparation",
+      "hair preparation",
+      "extract preparation"
+    ],
+    "ambiguity_flags": [
+      "multi_context"
+    ]
+  },
+  "chilli": {
+    "canonical_name": "chilli",
+    "common_names": [
+      "chili",
+      "chilli pepper",
+      "red pepper"
+    ],
+    "scientific_names": [
+      "Capsicum annuum",
+      "Capsicum frutescens"
+    ],
+    "regional_names": [
+      "mirch",
+      "lal mirch"
+    ],
+    "forms": [
+      "fresh pepper",
+      "powder",
+      "flakes",
+      "extract",
+      "seed"
+    ],
+    "common_product_contexts": [
+      "food/spice",
+      "cosmetic",
+      "supplement",
+      "agricultural",
+      "research"
+    ],
+    "possible_uses": [
+      "food preparation",
+      "extract preparation",
+      "agricultural cultivation",
+      "topical preparation"
+    ],
+    "ambiguity_flags": [
+      "high_ambiguity",
+      "multi_context"
+    ]
+  },
+  "black pepper": {
+    "canonical_name": "black pepper",
+    "common_names": [
+      "pepper"
+    ],
+    "scientific_names": [
+      "Piper nigrum"
+    ],
+    "regional_names": [
+      "kali mirch"
+    ],
+    "forms": [
+      "whole pepper",
+      "powder",
+      "extract"
+    ],
+    "common_product_contexts": [
+      "food/spice",
+      "ayush",
+      "supplement",
+      "research"
+    ],
+    "possible_uses": [
+      "food preparation",
+      "traditional preparation",
+      "extract preparation"
+    ],
+    "ambiguity_flags": [
+      "multi_context"
+    ]
+  },
+  "cinnamon": {
+    "canonical_name": "cinnamon",
+    "common_names": [
+      "dalchini"
+    ],
+    "scientific_names": [
+      "Cinnamomum verum",
+      "Cinnamomum cassia"
+    ],
+    "regional_names": [
+      "dalchini"
+    ],
+    "forms": [
+      "bark",
+      "powder",
+      "oil",
+      "extract"
+    ],
+    "common_product_contexts": [
+      "food/spice",
+      "beverage",
+      "cosmetic",
+      "ayush",
+      "research"
+    ],
+    "possible_uses": [
+      "food preparation",
+      "beverage",
+      "topical preparation",
+      "extract preparation"
+    ],
+    "ambiguity_flags": [
+      "multi_context"
+    ]
+  },
+  "clove": {
+    "canonical_name": "clove",
+    "common_names": [
+      "laung"
+    ],
+    "scientific_names": [
+      "Syzygium aromaticum"
+    ],
+    "regional_names": [
+      "laung"
+    ],
+    "forms": [
+      "whole clove",
+      "powder",
+      "oil",
+      "extract"
+    ],
+    "common_product_contexts": [
+      "food/spice",
+      "cosmetic",
+      "ayush",
+      "research"
+    ],
+    "possible_uses": [
+      "food preparation",
+      "oral preparation",
+      "topical preparation",
+      "extract preparation"
+    ],
+    "ambiguity_flags": [
+      "multi_context"
+    ]
+  },
+  "cardamom": {
+    "canonical_name": "cardamom",
+    "common_names": [
+      "elaichi"
+    ],
+    "scientific_names": [
+      "Elettaria cardamomum"
+    ],
+    "regional_names": [
+      "elaichi"
+    ],
+    "forms": [
+      "pod",
+      "seed",
+      "powder",
+      "oil"
+    ],
+    "common_product_contexts": [
+      "food/spice",
+      "beverage",
+      "ayush"
+    ],
+    "possible_uses": [
+      "food preparation",
+      "beverage",
+      "traditional preparation"
+    ],
+    "ambiguity_flags": [
+      "multi_context"
+    ]
+  },
+  "garlic": {
+    "canonical_name": "garlic",
+    "common_names": [
+      "lahsun"
+    ],
+    "scientific_names": [
+      "Allium sativum"
+    ],
+    "regional_names": [
+      "lahsun",
+      "lasun"
+    ],
+    "forms": [
+      "clove",
+      "powder",
+      "oil",
+      "extract"
+    ],
+    "common_product_contexts": [
+      "food/spice",
+      "ayush",
+      "supplement",
+      "research"
+    ],
+    "possible_uses": [
+      "food preparation",
+      "traditional preparation",
+      "extract preparation"
+    ],
+    "ambiguity_flags": [
+      "multi_context"
+    ]
+  },
+  "onion": {
+    "canonical_name": "onion",
+    "common_names": [
+      "pyaz"
+    ],
+    "scientific_names": [
+      "Allium cepa"
+    ],
+    "regional_names": [
+      "pyaz"
+    ],
+    "forms": [
+      "bulb",
+      "powder",
+      "oil",
+      "extract"
+    ],
+    "common_product_contexts": [
+      "food/spice",
+      "cosmetic",
+      "research"
+    ],
+    "possible_uses": [
+      "food preparation",
+      "topical preparation",
+      "extract preparation"
+    ],
+    "ambiguity_flags": [
+      "multi_context"
+    ]
+  },
+  "fenugreek": {
+    "canonical_name": "fenugreek",
+    "common_names": [
+      "methi"
+    ],
+    "scientific_names": [
+      "Trigonella foenum-graecum"
+    ],
+    "regional_names": [
+      "methi"
+    ],
+    "forms": [
+      "seed",
+      "leaf",
+      "powder",
+      "extract",
+      "oil"
+    ],
+    "common_product_contexts": [
+      "food/spice",
+      "ayush",
+      "cosmetic",
+      "supplement",
+      "agricultural"
+    ],
+    "possible_uses": [
+      "food preparation",
+      "hair preparation",
+      "traditional preparation",
+      "agricultural cultivation"
+    ],
+    "ambiguity_flags": [
+      "multi_context"
+    ]
+  },
+  "fennel": {
+    "canonical_name": "fennel",
+    "common_names": [
+      "saunf"
+    ],
+    "scientific_names": [
+      "Foeniculum vulgare"
+    ],
+    "regional_names": [
+      "saunf"
+    ],
+    "forms": [
+      "seed",
+      "powder",
+      "tea",
+      "oil",
+      "extract"
+    ],
+    "common_product_contexts": [
+      "food/spice",
+      "beverage",
+      "ayush",
+      "cosmetic"
+    ],
+    "possible_uses": [
+      "food preparation",
+      "beverage",
+      "traditional preparation",
+      "topical preparation"
+    ],
+    "ambiguity_flags": [
+      "multi_context"
+    ]
+  },
+  "cumin": {
+    "canonical_name": "cumin",
+    "common_names": [
+      "jeera"
+    ],
+    "scientific_names": [
+      "Cuminum cyminum"
+    ],
+    "regional_names": [
+      "jeera"
+    ],
+    "forms": [
+      "seed",
+      "powder",
+      "oil",
+      "extract"
+    ],
+    "common_product_contexts": [
+      "food/spice",
+      "ayush",
+      "research"
+    ],
+    "possible_uses": [
+      "food preparation",
+      "traditional preparation",
+      "extract preparation"
+    ],
+    "ambiguity_flags": [
+      "multi_context"
+    ]
+  },
+  "coriander": {
+    "canonical_name": "coriander",
+    "common_names": [
+      "dhania"
+    ],
+    "scientific_names": [
+      "Coriandrum sativum"
+    ],
+    "regional_names": [
+      "dhania"
+    ],
+    "forms": [
+      "seed",
+      "leaf",
+      "powder",
+      "oil",
+      "extract"
+    ],
+    "common_product_contexts": [
+      "food/spice",
+      "beverage",
+      "ayush",
+      "cosmetic"
+    ],
+    "possible_uses": [
+      "food preparation",
+      "beverage",
+      "traditional preparation",
+      "topical preparation"
+    ],
+    "ambiguity_flags": [
+      "multi_context"
+    ]
+  },
+  "ajwain": {
+    "canonical_name": "ajwain",
+    "common_names": [
+      "carom seed",
+      "bishop's weed"
+    ],
+    "scientific_names": [
+      "Trachyspermum ammi"
+    ],
+    "regional_names": [
+      "ajwain"
+    ],
+    "forms": [
+      "seed",
+      "powder",
+      "oil",
+      "extract"
+    ],
+    "common_product_contexts": [
+      "food/spice",
+      "ayush",
+      "research"
+    ],
+    "possible_uses": [
+      "food preparation",
+      "traditional preparation",
+      "extract preparation"
+    ],
+    "ambiguity_flags": [
+      "multi_context"
+    ]
+  },
+  "licorice": {
+    "canonical_name": "licorice",
+    "common_names": [
+      "liquorice",
+      "mulethi"
+    ],
+    "scientific_names": [
+      "Glycyrrhiza glabra"
+    ],
+    "regional_names": [
+      "mulethi",
+      "yashtimadhu"
+    ],
+    "forms": [
+      "root",
+      "powder",
+      "extract",
+      "tea"
+    ],
+    "common_product_contexts": [
+      "ayush",
+      "beverage",
+      "cosmetic",
+      "supplement",
+      "research"
+    ],
+    "possible_uses": [
+      "traditional preparation",
+      "beverage",
+      "topical preparation",
+      "extract preparation"
+    ],
+    "ambiguity_flags": [
+      "multi_context"
+    ]
+  },
+  "shatavari": {
+    "canonical_name": "shatavari",
+    "common_names": [
+      "asparagus racemosus"
+    ],
+    "scientific_names": [
+      "Asparagus racemosus"
+    ],
+    "regional_names": [
+      "shatavari"
+    ],
+    "forms": [
+      "root",
+      "powder",
+      "extract",
+      "capsule"
+    ],
+    "common_product_contexts": [
+      "ayush",
+      "supplement",
+      "research"
+    ],
+    "possible_uses": [
+      "traditional preparation",
+      "oral preparation",
+      "extract preparation"
+    ],
+    "ambiguity_flags": [
+      "multi_context"
+    ]
+  },
+  "guduchi": {
+    "canonical_name": "guduchi",
+    "common_names": [
+      "giloy",
+      "tinospora"
+    ],
+    "scientific_names": [
+      "Tinospora cordifolia"
+    ],
+    "regional_names": [
+      "giloy",
+      "guduchi"
+    ],
+    "forms": [
+      "stem",
+      "powder",
+      "extract",
+      "juice"
+    ],
+    "common_product_contexts": [
+      "ayush",
+      "supplement",
+      "research"
+    ],
+    "possible_uses": [
+      "traditional preparation",
+      "oral preparation",
+      "extract preparation"
+    ],
+    "ambiguity_flags": [
+      "multi_context"
+    ]
+  },
+  "moringa": {
+    "canonical_name": "moringa",
+    "common_names": [
+      "drumstick tree",
+      "moringa oleifera"
+    ],
+    "scientific_names": [
+      "Moringa oleifera"
+    ],
+    "regional_names": [
+      "sahjan",
+      "drumstick"
+    ],
+    "forms": [
+      "leaf",
+      "powder",
+      "seed",
+      "oil",
+      "extract"
+    ],
+    "common_product_contexts": [
+      "food",
+      "supplement",
+      "cosmetic",
+      "agricultural",
+      "research"
+    ],
+    "possible_uses": [
+      "food preparation",
+      "oral preparation",
+      "hair preparation",
+      "agricultural cultivation"
+    ],
+    "ambiguity_flags": [
+      "multi_context"
+    ]
+  },
+  "mint": {
+    "canonical_name": "mint",
+    "common_names": [
+      "pudina",
+      "peppermint"
+    ],
+    "scientific_names": [
+      "Mentha arvensis",
+      "Mentha piperita"
+    ],
+    "regional_names": [
+      "pudina"
+    ],
+    "forms": [
+      "leaf",
+      "tea",
+      "powder",
+      "oil",
+      "extract"
+    ],
+    "common_product_contexts": [
+      "food/spice",
+      "beverage",
+      "cosmetic",
+      "ayush"
+    ],
+    "possible_uses": [
+      "food preparation",
+      "beverage",
+      "topical preparation",
+      "traditional preparation"
+    ],
+    "ambiguity_flags": [
+      "multi_context"
+    ]
+  },
+  "lemon": {
+    "canonical_name": "lemon",
+    "common_names": [
+      "nimbu"
+    ],
+    "scientific_names": [
+      "Citrus limon"
+    ],
+    "regional_names": [
+      "nimbu"
+    ],
+    "forms": [
+      "fruit",
+      "juice",
+      "peel",
+      "oil",
+      "extract"
+    ],
+    "common_product_contexts": [
+      "food",
+      "beverage",
+      "cosmetic",
+      "research"
+    ],
+    "possible_uses": [
+      "food preparation",
+      "beverage",
+      "topical preparation",
+      "extract preparation"
+    ],
+    "ambiguity_flags": [
+      "multi_context"
+    ]
+  },
+  "orange": {
+    "canonical_name": "orange",
+    "common_names": [
+      "santra"
+    ],
+    "scientific_names": [
+      "Citrus sinensis"
+    ],
+    "regional_names": [
+      "santra"
+    ],
+    "forms": [
+      "fruit",
+      "juice",
+      "peel",
+      "oil",
+      "extract"
+    ],
+    "common_product_contexts": [
+      "food",
+      "beverage",
+      "cosmetic",
+      "research"
+    ],
+    "possible_uses": [
+      "food preparation",
+      "beverage",
+      "topical preparation",
+      "extract preparation"
+    ],
+    "ambiguity_flags": [
+      "multi_context"
+    ]
+  },
+  "rose": {
+    "canonical_name": "rose",
+    "common_names": [
+      "gulab"
+    ],
+    "scientific_names": [
+      "Rosa damascena",
+      "Rosa centifolia"
+    ],
+    "regional_names": [
+      "gulab"
+    ],
+    "forms": [
+      "petal",
+      "water",
+      "oil",
+      "extract"
+    ],
+    "common_product_contexts": [
+      "cosmetic",
+      "beverage",
+      "food",
+      "ayush"
+    ],
+    "possible_uses": [
+      "skin preparation",
+      "beverage",
+      "food preparation",
+      "traditional preparation"
+    ],
+    "ambiguity_flags": [
+      "multi_context"
+    ]
+  },
+  "sandalwood": {
+    "canonical_name": "sandalwood",
+    "common_names": [
+      "chandan"
+    ],
+    "scientific_names": [
+      "Santalum album"
+    ],
+    "regional_names": [
+      "chandan"
+    ],
+    "forms": [
+      "wood",
+      "powder",
+      "oil",
+      "paste",
+      "extract"
+    ],
+    "common_product_contexts": [
+      "cosmetic",
+      "ayush",
+      "traditional knowledge",
+      "research"
+    ],
+    "possible_uses": [
+      "topical preparation",
+      "traditional preparation",
+      "extract preparation"
+    ],
+    "ambiguity_flags": [
+      "multi_context"
+    ]
+  },
+  "sesame": {
+    "canonical_name": "sesame",
+    "common_names": [
+      "til",
+      "sesame seed"
+    ],
+    "scientific_names": [
+      "Sesamum indicum"
+    ],
+    "regional_names": [
+      "til"
+    ],
+    "forms": [
+      "seed",
+      "oil",
+      "powder",
+      "extract"
+    ],
+    "common_product_contexts": [
+      "food",
+      "cosmetic",
+      "ayush",
+      "agricultural"
+    ],
+    "possible_uses": [
+      "food preparation",
+      "topical preparation",
+      "traditional preparation",
+      "agricultural cultivation"
+    ],
+    "ambiguity_flags": [
+      "multi_context"
+    ]
+  },
+  "coconut": {
+    "canonical_name": "coconut",
+    "common_names": [
+      "narial",
+      "coconut oil"
+    ],
+    "scientific_names": [
+      "Cocos nucifera"
+    ],
+    "regional_names": [
+      "nariyal",
+      "narial"
+    ],
+    "forms": [
+      "fruit",
+      "milk",
+      "water",
+      "oil",
+      "powder"
+    ],
+    "common_product_contexts": [
+      "food",
+      "cosmetic",
+      "beverage",
+      "ayush"
+    ],
+    "possible_uses": [
+      "food preparation",
+      "beverage",
+      "hair preparation",
+      "skin preparation"
+    ],
+    "ambiguity_flags": [
+      "multi_context"
+    ]
+  },
+  "mustard": {
+    "canonical_name": "mustard",
+    "common_names": [
+      "sarson"
+    ],
+    "scientific_names": [
+      "Brassica juncea",
+      "Brassica nigra"
+    ],
+    "regional_names": [
+      "sarson",
+      "rai"
+    ],
+    "forms": [
+      "seed",
+      "powder",
+      "oil"
+    ],
+    "common_product_contexts": [
+      "food/spice",
+      "cosmetic",
+      "ayush",
+      "agricultural"
+    ],
+    "possible_uses": [
+      "food preparation",
+      "topical preparation",
+      "agricultural cultivation"
+    ],
+    "ambiguity_flags": [
+      "multi_context"
+    ]
+  },
+  "castor": {
+    "canonical_name": "castor",
+    "common_names": [
+      "castor bean",
+      "arandi"
+    ],
+    "scientific_names": [
+      "Ricinus communis"
+    ],
+    "regional_names": [
+      "arandi"
+    ],
+    "forms": [
+      "seed",
+      "oil",
+      "extract"
+    ],
+    "common_product_contexts": [
+      "cosmetic",
+      "industrial",
+      "agricultural",
+      "research"
+    ],
+    "possible_uses": [
+      "hair preparation",
+      "industrial ingredient",
+      "research material",
+      "agricultural product"
+    ],
+    "ambiguity_flags": [
+      "multi_context"
+    ]
+  },
+  "olive": {
+    "canonical_name": "olive",
+    "common_names": [
+      "olive fruit"
+    ],
+    "scientific_names": [
+      "Olea europaea"
+    ],
+    "regional_names": [
+      "zaitoon"
+    ],
+    "forms": [
+      "fruit",
+      "oil",
+      "extract"
+    ],
+    "common_product_contexts": [
+      "food",
+      "cosmetic",
+      "research"
+    ],
+    "possible_uses": [
+      "food preparation",
+      "skin preparation",
+      "hair preparation"
+    ],
+    "ambiguity_flags": [
+      "multi_context"
+    ]
+  },
+  "sunflower": {
+    "canonical_name": "sunflower",
+    "common_names": [
+      "sunflower seed"
+    ],
+    "scientific_names": [
+      "Helianthus annuus"
+    ],
+    "regional_names": [
+      "surajmukhi"
+    ],
+    "forms": [
+      "seed",
+      "oil",
+      "meal",
+      "extract"
+    ],
+    "common_product_contexts": [
+      "food",
+      "cosmetic",
+      "industrial",
+      "agricultural"
+    ],
+    "possible_uses": [
+      "food preparation",
+      "industrial ingredient",
+      "agricultural product"
+    ],
+    "ambiguity_flags": [
+      "multi_context"
+    ]
+  },
+  "tea": {
+    "canonical_name": "tea",
+    "common_names": [
+      "chai"
+    ],
+    "scientific_names": [
+      "Camellia sinensis"
+    ],
+    "regional_names": [
+      "chai"
+    ],
+    "forms": [
+      "tea",
+      "leaf",
+      "powder",
+      "extract"
+    ],
+    "common_product_contexts": [
+      "food",
+      "beverage",
+      "industrial",
+      "traditional knowledge"
+    ],
+    "possible_uses": [
+      "food preparation",
+      "beverage",
+      "traditional preparation",
+      "topical preparation",
+      "extract preparation"
+    ],
+    "ambiguity_flags": [
+      "multi_context"
+    ]
+  },
+  "coffee": {
+    "canonical_name": "coffee",
+    "common_names": [
+      "coffee bean"
+    ],
+    "scientific_names": [
+      "Coffea arabica"
+    ],
+    "regional_names": [
+      "coffee"
+    ],
+    "forms": [
+      "raw material",
+      "powder",
+      "extract"
+    ],
+    "common_product_contexts": [
+      "food",
+      "beverage",
+      "industrial",
+      "traditional knowledge"
+    ],
+    "possible_uses": [
+      "food preparation",
+      "beverage",
+      "traditional preparation",
+      "topical preparation",
+      "extract preparation"
+    ],
+    "ambiguity_flags": [
+      "multi_context"
+    ]
+  },
+  "rice": {
+    "canonical_name": "rice",
+    "common_names": [
+      "chawal"
+    ],
+    "scientific_names": [
+      "Oryza sativa"
+    ],
+    "regional_names": [
+      "chawal"
+    ],
+    "forms": [
+      "raw material",
+      "powder",
+      "extract"
+    ],
+    "common_product_contexts": [
+      "food",
+      "agricultural",
+      "research",
+      "traditional knowledge"
+    ],
+    "possible_uses": [
+      "food preparation",
+      "beverage",
+      "traditional preparation",
+      "topical preparation",
+      "extract preparation"
+    ],
+    "ambiguity_flags": [
+      "multi_context"
+    ]
+  },
+  "wheat": {
+    "canonical_name": "wheat",
+    "common_names": [
+      "gehun"
+    ],
+    "scientific_names": [
+      "Triticum aestivum"
+    ],
+    "regional_names": [
+      "gehun"
+    ],
+    "forms": [
+      "raw material",
+      "powder",
+      "extract"
+    ],
+    "common_product_contexts": [
+      "food",
+      "agricultural",
+      "research",
+      "traditional knowledge"
+    ],
+    "possible_uses": [
+      "food preparation",
+      "beverage",
+      "traditional preparation",
+      "topical preparation",
+      "extract preparation"
+    ],
+    "ambiguity_flags": [
+      "multi_context"
+    ]
+  },
+  "barley": {
+    "canonical_name": "barley",
+    "common_names": [
+      "jau"
+    ],
+    "scientific_names": [
+      "Hordeum vulgare"
+    ],
+    "regional_names": [
+      "jau"
+    ],
+    "forms": [
+      "raw material",
+      "powder",
+      "extract"
+    ],
+    "common_product_contexts": [
+      "food/spice",
+      "beverage",
+      "traditional knowledge",
+      "cosmetic",
+      "supplement",
+      "research"
+    ],
+    "possible_uses": [
+      "food preparation",
+      "beverage",
+      "traditional preparation",
+      "topical preparation",
+      "extract preparation"
+    ],
+    "ambiguity_flags": [
+      "multi_context"
+    ]
+  },
+  "oats": {
+    "canonical_name": "oats",
+    "common_names": [
+      "oat"
+    ],
+    "scientific_names": [
+      "Avena sativa"
+    ],
+    "regional_names": [
+      "jai"
+    ],
+    "forms": [
+      "raw material",
+      "powder",
+      "extract"
+    ],
+    "common_product_contexts": [
+      "food/spice",
+      "beverage",
+      "traditional knowledge",
+      "cosmetic",
+      "supplement",
+      "research"
+    ],
+    "possible_uses": [
+      "food preparation",
+      "beverage",
+      "traditional preparation",
+      "topical preparation",
+      "extract preparation"
+    ],
+    "ambiguity_flags": [
+      "multi_context"
+    ]
+  },
+  "maize": {
+    "canonical_name": "maize",
+    "common_names": [
+      "corn"
+    ],
+    "scientific_names": [
+      "Zea mays"
+    ],
+    "regional_names": [
+      "makka"
+    ],
+    "forms": [
+      "raw material",
+      "powder",
+      "extract"
+    ],
+    "common_product_contexts": [
+      "food",
+      "agricultural",
+      "research",
+      "traditional knowledge"
+    ],
+    "possible_uses": [
+      "food preparation",
+      "beverage",
+      "traditional preparation",
+      "topical preparation",
+      "extract preparation"
+    ],
+    "ambiguity_flags": [
+      "multi_context"
+    ]
+  },
+  "millet": {
+    "canonical_name": "millet",
+    "common_names": [
+      "bajra"
+    ],
+    "scientific_names": [
+      "Pennisetum glaucum"
+    ],
+    "regional_names": [
+      "bajra"
+    ],
+    "forms": [
+      "raw material",
+      "powder",
+      "extract"
+    ],
+    "common_product_contexts": [
+      "food",
+      "agricultural",
+      "research",
+      "traditional knowledge"
+    ],
+    "possible_uses": [
+      "food preparation",
+      "beverage",
+      "traditional preparation",
+      "topical preparation",
+      "extract preparation"
+    ],
+    "ambiguity_flags": [
+      "multi_context"
+    ]
+  },
+  "ragi": {
+    "canonical_name": "ragi",
+    "common_names": [
+      "finger millet"
+    ],
+    "scientific_names": [
+      "Eleusine coracana"
+    ],
+    "regional_names": [
+      "ragi"
+    ],
+    "forms": [
+      "raw material",
+      "powder",
+      "extract"
+    ],
+    "common_product_contexts": [
+      "food/spice",
+      "beverage",
+      "traditional knowledge",
+      "cosmetic",
+      "supplement",
+      "research"
+    ],
+    "possible_uses": [
+      "food preparation",
+      "beverage",
+      "traditional preparation",
+      "topical preparation",
+      "extract preparation"
+    ],
+    "ambiguity_flags": [
+      "multi_context"
+    ]
+  },
+  "chickpea": {
+    "canonical_name": "chickpea",
+    "common_names": [
+      "chana"
+    ],
+    "scientific_names": [
+      "Cicer arietinum"
+    ],
+    "regional_names": [
+      "chana"
+    ],
+    "forms": [
+      "raw material",
+      "powder",
+      "extract"
+    ],
+    "common_product_contexts": [
+      "food/spice",
+      "beverage",
+      "traditional knowledge",
+      "cosmetic",
+      "supplement",
+      "research"
+    ],
+    "possible_uses": [
+      "food preparation",
+      "beverage",
+      "traditional preparation",
+      "topical preparation",
+      "extract preparation"
+    ],
+    "ambiguity_flags": [
+      "multi_context"
+    ]
+  },
+  "lentil": {
+    "canonical_name": "lentil",
+    "common_names": [
+      "masoor"
+    ],
+    "scientific_names": [
+      "Lens culinaris"
+    ],
+    "regional_names": [
+      "masoor"
+    ],
+    "forms": [
+      "raw material",
+      "powder",
+      "extract"
+    ],
+    "common_product_contexts": [
+      "food",
+      "agricultural",
+      "research",
+      "traditional knowledge"
+    ],
+    "possible_uses": [
+      "food preparation",
+      "beverage",
+      "traditional preparation",
+      "topical preparation",
+      "extract preparation"
+    ],
+    "ambiguity_flags": [
+      "multi_context"
+    ]
+  },
+  "mung bean": {
+    "canonical_name": "mung bean",
+    "common_names": [
+      "moong"
+    ],
+    "scientific_names": [
+      "Vigna radiata"
+    ],
+    "regional_names": [
+      "moong"
+    ],
+    "forms": [
+      "raw material",
+      "powder",
+      "extract"
+    ],
+    "common_product_contexts": [
+      "food",
+      "agricultural",
+      "research",
+      "traditional knowledge"
+    ],
+    "possible_uses": [
+      "food preparation",
+      "beverage",
+      "traditional preparation",
+      "topical preparation",
+      "extract preparation"
+    ],
+    "ambiguity_flags": [
+      "multi_context"
+    ]
+  },
+  "black gram": {
+    "canonical_name": "black gram",
+    "common_names": [
+      "urad"
+    ],
+    "scientific_names": [
+      "Vigna mungo"
+    ],
+    "regional_names": [
+      "urad"
+    ],
+    "forms": [
+      "raw material",
+      "powder",
+      "extract"
+    ],
+    "common_product_contexts": [
+      "food/spice",
+      "beverage",
+      "traditional knowledge",
+      "cosmetic",
+      "supplement",
+      "research"
+    ],
+    "possible_uses": [
+      "food preparation",
+      "beverage",
+      "traditional preparation",
+      "topical preparation",
+      "extract preparation"
+    ],
+    "ambiguity_flags": [
+      "multi_context"
+    ]
+  },
+  "soybean": {
+    "canonical_name": "soybean",
+    "common_names": [
+      "soya"
+    ],
+    "scientific_names": [
+      "Glycine max"
+    ],
+    "regional_names": [
+      "soya"
+    ],
+    "forms": [
+      "raw material",
+      "powder",
+      "extract"
+    ],
+    "common_product_contexts": [
+      "food",
+      "agricultural",
+      "research",
+      "traditional knowledge"
+    ],
+    "possible_uses": [
+      "food preparation",
+      "beverage",
+      "traditional preparation",
+      "topical preparation",
+      "extract preparation"
+    ],
+    "ambiguity_flags": [
+      "multi_context"
+    ]
+  },
+  "peanut": {
+    "canonical_name": "peanut",
+    "common_names": [
+      "groundnut"
+    ],
+    "scientific_names": [
+      "Arachis hypogaea"
+    ],
+    "regional_names": [
+      "moongfali"
+    ],
+    "forms": [
+      "raw material",
+      "powder",
+      "extract"
+    ],
+    "common_product_contexts": [
+      "food/spice",
+      "beverage",
+      "traditional knowledge",
+      "cosmetic",
+      "supplement",
+      "research"
+    ],
+    "possible_uses": [
+      "food preparation",
+      "beverage",
+      "traditional preparation",
+      "topical preparation",
+      "extract preparation"
+    ],
+    "ambiguity_flags": [
+      "multi_context"
+    ]
+  },
+  "almond": {
+    "canonical_name": "almond",
+    "common_names": [
+      "badam"
+    ],
+    "scientific_names": [
+      "Prunus dulcis"
+    ],
+    "regional_names": [
+      "badam"
+    ],
+    "forms": [
+      "raw material",
+      "powder",
+      "extract"
+    ],
+    "common_product_contexts": [
+      "food/spice",
+      "beverage",
+      "traditional knowledge",
+      "cosmetic",
+      "supplement",
+      "research"
+    ],
+    "possible_uses": [
+      "food preparation",
+      "beverage",
+      "traditional preparation",
+      "topical preparation",
+      "extract preparation"
+    ],
+    "ambiguity_flags": [
+      "multi_context"
+    ]
+  },
+  "cashew": {
+    "canonical_name": "cashew",
+    "common_names": [
+      "kaju"
+    ],
+    "scientific_names": [
+      "Anacardium occidentale"
+    ],
+    "regional_names": [
+      "kaju"
+    ],
+    "forms": [
+      "raw material",
+      "powder",
+      "extract"
+    ],
+    "common_product_contexts": [
+      "food/spice",
+      "beverage",
+      "traditional knowledge",
+      "cosmetic",
+      "supplement",
+      "research"
+    ],
+    "possible_uses": [
+      "food preparation",
+      "beverage",
+      "traditional preparation",
+      "topical preparation",
+      "extract preparation"
+    ],
+    "ambiguity_flags": [
+      "multi_context"
+    ]
+  },
+  "walnut": {
+    "canonical_name": "walnut",
+    "common_names": [
+      "akhrot"
+    ],
+    "scientific_names": [
+      "Juglans regia"
+    ],
+    "regional_names": [
+      "akhrot"
+    ],
+    "forms": [
+      "raw material",
+      "powder",
+      "extract"
+    ],
+    "common_product_contexts": [
+      "food/spice",
+      "beverage",
+      "traditional knowledge",
+      "cosmetic",
+      "supplement",
+      "research"
+    ],
+    "possible_uses": [
+      "food preparation",
+      "beverage",
+      "traditional preparation",
+      "topical preparation",
+      "extract preparation"
+    ],
+    "ambiguity_flags": [
+      "multi_context"
+    ]
+  },
+  "flaxseed": {
+    "canonical_name": "flaxseed",
+    "common_names": [
+      "alsi"
+    ],
+    "scientific_names": [
+      "Linum usitatissimum"
+    ],
+    "regional_names": [
+      "alsi"
+    ],
+    "forms": [
+      "seed",
+      "powder",
+      "oil",
+      "extract"
+    ],
+    "common_product_contexts": [
+      "food",
+      "agricultural",
+      "research",
+      "traditional knowledge"
+    ],
+    "possible_uses": [
+      "food preparation",
+      "beverage",
+      "traditional preparation",
+      "topical preparation",
+      "extract preparation"
+    ],
+    "ambiguity_flags": [
+      "multi_context"
+    ]
+  },
+  "chia": {
+    "canonical_name": "chia",
+    "common_names": [
+      "chia seed"
+    ],
+    "scientific_names": [
+      "Salvia hispanica"
+    ],
+    "regional_names": [
+      "chia"
+    ],
+    "forms": [
+      "raw material",
+      "powder",
+      "extract"
+    ],
+    "common_product_contexts": [
+      "food/spice",
+      "beverage",
+      "traditional knowledge",
+      "cosmetic",
+      "supplement",
+      "research"
+    ],
+    "possible_uses": [
+      "food preparation",
+      "beverage",
+      "traditional preparation",
+      "topical preparation",
+      "extract preparation"
+    ],
+    "ambiguity_flags": [
+      "multi_context"
+    ]
+  },
+  "basil": {
+    "canonical_name": "basil",
+    "common_names": [
+      "sweet basil"
+    ],
+    "scientific_names": [
+      "Ocimum basilicum"
+    ],
+    "regional_names": [
+      "sabja/tukmaria"
+    ],
+    "forms": [
+      "raw material",
+      "powder",
+      "extract"
+    ],
+    "common_product_contexts": [
+      "food/spice",
+      "beverage",
+      "traditional knowledge",
+      "cosmetic",
+      "supplement",
+      "research"
+    ],
+    "possible_uses": [
+      "food preparation",
+      "beverage",
+      "traditional preparation",
+      "topical preparation",
+      "extract preparation"
+    ],
+    "ambiguity_flags": [
+      "multi_context"
+    ]
+  },
+  "rosemary": {
+    "canonical_name": "rosemary",
+    "common_names": [
+      "rosemary herb"
+    ],
+    "scientific_names": [
+      "Salvia rosmarinus"
+    ],
+    "regional_names": [
+      "rosemary"
+    ],
+    "forms": [
+      "raw material",
+      "powder",
+      "extract"
+    ],
+    "common_product_contexts": [
+      "food/spice",
+      "beverage",
+      "traditional knowledge",
+      "cosmetic",
+      "supplement",
+      "research"
+    ],
+    "possible_uses": [
+      "food preparation",
+      "beverage",
+      "traditional preparation",
+      "topical preparation",
+      "extract preparation"
+    ],
+    "ambiguity_flags": [
+      "multi_context"
+    ]
+  },
+  "thyme": {
+    "canonical_name": "thyme",
+    "common_names": [
+      "thyme herb"
+    ],
+    "scientific_names": [
+      "Thymus vulgaris"
+    ],
+    "regional_names": [
+      "thyme"
+    ],
+    "forms": [
+      "raw material",
+      "powder",
+      "extract"
+    ],
+    "common_product_contexts": [
+      "food/spice",
+      "beverage",
+      "traditional knowledge",
+      "cosmetic",
+      "supplement",
+      "research"
+    ],
+    "possible_uses": [
+      "food preparation",
+      "beverage",
+      "traditional preparation",
+      "topical preparation",
+      "extract preparation"
+    ],
+    "ambiguity_flags": [
+      "multi_context"
+    ]
+  },
+  "oregano": {
+    "canonical_name": "oregano",
+    "common_names": [
+      "oregano herb"
+    ],
+    "scientific_names": [
+      "Origanum vulgare"
+    ],
+    "regional_names": [
+      "oregano"
+    ],
+    "forms": [
+      "raw material",
+      "powder",
+      "extract"
+    ],
+    "common_product_contexts": [
+      "food/spice",
+      "beverage",
+      "traditional knowledge",
+      "cosmetic",
+      "supplement",
+      "research"
+    ],
+    "possible_uses": [
+      "food preparation",
+      "beverage",
+      "traditional preparation",
+      "topical preparation",
+      "extract preparation"
+    ],
+    "ambiguity_flags": [
+      "multi_context"
+    ]
+  },
+  "bay leaf": {
+    "canonical_name": "bay leaf",
+    "common_names": [
+      "bay"
+    ],
+    "scientific_names": [
+      "Cinnamomum tamala"
+    ],
+    "regional_names": [
+      "tej patta"
+    ],
+    "forms": [
+      "raw material",
+      "powder",
+      "extract"
+    ],
+    "common_product_contexts": [
+      "food/spice",
+      "beverage",
+      "traditional knowledge",
+      "cosmetic",
+      "supplement",
+      "research"
+    ],
+    "possible_uses": [
+      "food preparation",
+      "beverage",
+      "traditional preparation",
+      "topical preparation",
+      "extract preparation"
+    ],
+    "ambiguity_flags": [
+      "multi_context"
+    ]
+  },
+  "nutmeg": {
+    "canonical_name": "nutmeg",
+    "common_names": [
+      "jaiphal"
+    ],
+    "scientific_names": [
+      "Myristica fragrans"
+    ],
+    "regional_names": [
+      "jaiphal"
+    ],
+    "forms": [
+      "raw material",
+      "powder",
+      "extract"
+    ],
+    "common_product_contexts": [
+      "food/spice",
+      "beverage",
+      "traditional knowledge",
+      "cosmetic",
+      "supplement",
+      "research"
+    ],
+    "possible_uses": [
+      "food preparation",
+      "beverage",
+      "traditional preparation",
+      "topical preparation",
+      "extract preparation"
+    ],
+    "ambiguity_flags": [
+      "multi_context"
+    ]
+  },
+  "mace": {
+    "canonical_name": "mace",
+    "common_names": [
+      "javitri"
+    ],
+    "scientific_names": [
+      "Myristica fragrans"
+    ],
+    "regional_names": [
+      "javitri"
+    ],
+    "forms": [
+      "raw material",
+      "powder",
+      "extract"
+    ],
+    "common_product_contexts": [
+      "food/spice",
+      "beverage",
+      "traditional knowledge",
+      "cosmetic",
+      "supplement",
+      "research"
+    ],
+    "possible_uses": [
+      "food preparation",
+      "beverage",
+      "traditional preparation",
+      "topical preparation",
+      "extract preparation"
+    ],
+    "ambiguity_flags": [
+      "multi_context"
+    ]
+  },
+  "star anise": {
+    "canonical_name": "star anise",
+    "common_names": [
+      "star anise spice"
+    ],
+    "scientific_names": [
+      "Illicium verum"
+    ],
+    "regional_names": [
+      "chakri phool"
+    ],
+    "forms": [
+      "raw material",
+      "powder",
+      "extract"
+    ],
+    "common_product_contexts": [
+      "food/spice",
+      "beverage",
+      "traditional knowledge",
+      "cosmetic",
+      "supplement",
+      "research"
+    ],
+    "possible_uses": [
+      "food preparation",
+      "beverage",
+      "traditional preparation",
+      "topical preparation",
+      "extract preparation"
+    ],
+    "ambiguity_flags": [
+      "multi_context"
+    ]
+  },
+  "black cumin": {
+    "canonical_name": "black cumin",
+    "common_names": [
+      "kalonji"
+    ],
+    "scientific_names": [
+      "Nigella sativa"
+    ],
+    "regional_names": [
+      "kalonji"
+    ],
+    "forms": [
+      "raw material",
+      "powder",
+      "extract"
+    ],
+    "common_product_contexts": [
+      "food/spice",
+      "beverage",
+      "traditional knowledge",
+      "cosmetic",
+      "supplement",
+      "research"
+    ],
+    "possible_uses": [
+      "food preparation",
+      "beverage",
+      "traditional preparation",
+      "topical preparation",
+      "extract preparation"
+    ],
+    "ambiguity_flags": [
+      "multi_context"
+    ]
+  },
+  "poppy seed": {
+    "canonical_name": "poppy seed",
+    "common_names": [
+      "khus khus"
+    ],
+    "scientific_names": [
+      "Papaver somniferum"
+    ],
+    "regional_names": [
+      "khus khus"
+    ],
+    "forms": [
+      "seed",
+      "powder",
+      "oil",
+      "extract"
+    ],
+    "common_product_contexts": [
+      "food",
+      "agricultural",
+      "research",
+      "traditional knowledge"
+    ],
+    "possible_uses": [
+      "food preparation",
+      "beverage",
+      "traditional preparation",
+      "topical preparation",
+      "extract preparation"
+    ],
+    "ambiguity_flags": [
+      "multi_context"
+    ]
+  },
+  "asafoetida": {
+    "canonical_name": "asafoetida",
+    "common_names": [
+      "hing"
+    ],
+    "scientific_names": [
+      "Ferula asafoetida"
+    ],
+    "regional_names": [
+      "hing"
+    ],
+    "forms": [
+      "raw material",
+      "powder",
+      "extract"
+    ],
+    "common_product_contexts": [
+      "food/spice",
+      "beverage",
+      "traditional knowledge",
+      "cosmetic",
+      "supplement",
+      "research"
+    ],
+    "possible_uses": [
+      "food preparation",
+      "beverage",
+      "traditional preparation",
+      "topical preparation",
+      "extract preparation"
+    ],
+    "ambiguity_flags": [
+      "multi_context"
+    ]
+  },
+  "tamarind": {
+    "canonical_name": "tamarind",
+    "common_names": [
+      "imli"
+    ],
+    "scientific_names": [
+      "Tamarindus indica"
+    ],
+    "regional_names": [
+      "imli"
+    ],
+    "forms": [
+      "raw material",
+      "powder",
+      "extract"
+    ],
+    "common_product_contexts": [
+      "food/spice",
+      "beverage",
+      "traditional knowledge",
+      "cosmetic",
+      "supplement",
+      "research"
+    ],
+    "possible_uses": [
+      "food preparation",
+      "beverage",
+      "traditional preparation",
+      "topical preparation",
+      "extract preparation"
+    ],
+    "ambiguity_flags": [
+      "multi_context"
+    ]
+  },
+  "kokum": {
+    "canonical_name": "kokum",
+    "common_names": [
+      "kokum fruit"
+    ],
+    "scientific_names": [
+      "Garcinia indica"
+    ],
+    "regional_names": [
+      "kokum"
+    ],
+    "forms": [
+      "raw material",
+      "powder",
+      "extract"
+    ],
+    "common_product_contexts": [
+      "food/spice",
+      "beverage",
+      "traditional knowledge",
+      "cosmetic",
+      "supplement",
+      "research"
+    ],
+    "possible_uses": [
+      "food preparation",
+      "beverage",
+      "traditional preparation",
+      "topical preparation",
+      "extract preparation"
+    ],
+    "ambiguity_flags": [
+      "multi_context"
+    ]
+  },
+  "amchur": {
+    "canonical_name": "amchur",
+    "common_names": [
+      "mango powder"
+    ],
+    "scientific_names": [
+      "Mangifera indica"
+    ],
+    "regional_names": [
+      "amchur"
+    ],
+    "forms": [
+      "raw material",
+      "powder",
+      "extract"
+    ],
+    "common_product_contexts": [
+      "food/spice",
+      "beverage",
+      "traditional knowledge",
+      "cosmetic",
+      "supplement",
+      "research"
+    ],
+    "possible_uses": [
+      "food preparation",
+      "beverage",
+      "traditional preparation",
+      "topical preparation",
+      "extract preparation"
+    ],
+    "ambiguity_flags": [
+      "multi_context"
+    ]
+  },
+  "mango": {
+    "canonical_name": "mango",
+    "common_names": [
+      "aam"
+    ],
+    "scientific_names": [
+      "Mangifera indica"
+    ],
+    "regional_names": [
+      "aam"
+    ],
+    "forms": [
+      "raw material",
+      "powder",
+      "extract"
+    ],
+    "common_product_contexts": [
+      "food/spice",
+      "beverage",
+      "traditional knowledge",
+      "cosmetic",
+      "supplement",
+      "research"
+    ],
+    "possible_uses": [
+      "food preparation",
+      "beverage",
+      "traditional preparation",
+      "topical preparation",
+      "extract preparation"
+    ],
+    "ambiguity_flags": [
+      "multi_context"
+    ]
+  },
+  "guava": {
+    "canonical_name": "guava",
+    "common_names": [
+      "amrood"
+    ],
+    "scientific_names": [
+      "Psidium guajava"
+    ],
+    "regional_names": [
+      "amrood"
+    ],
+    "forms": [
+      "raw material",
+      "powder",
+      "extract"
+    ],
+    "common_product_contexts": [
+      "food/spice",
+      "beverage",
+      "traditional knowledge",
+      "cosmetic",
+      "supplement",
+      "research"
+    ],
+    "possible_uses": [
+      "food preparation",
+      "beverage",
+      "traditional preparation",
+      "topical preparation",
+      "extract preparation"
+    ],
+    "ambiguity_flags": [
+      "multi_context"
+    ]
+  },
+  "papaya": {
+    "canonical_name": "papaya",
+    "common_names": [
+      "papita"
+    ],
+    "scientific_names": [
+      "Carica papaya"
+    ],
+    "regional_names": [
+      "papita"
+    ],
+    "forms": [
+      "raw material",
+      "powder",
+      "extract"
+    ],
+    "common_product_contexts": [
+      "food/spice",
+      "beverage",
+      "traditional knowledge",
+      "cosmetic",
+      "supplement",
+      "research"
+    ],
+    "possible_uses": [
+      "food preparation",
+      "beverage",
+      "traditional preparation",
+      "topical preparation",
+      "extract preparation"
+    ],
+    "ambiguity_flags": [
+      "multi_context"
+    ]
+  },
+  "pomegranate": {
+    "canonical_name": "pomegranate",
+    "common_names": [
+      "anar"
+    ],
+    "scientific_names": [
+      "Punica granatum"
+    ],
+    "regional_names": [
+      "anar"
+    ],
+    "forms": [
+      "raw material",
+      "powder",
+      "extract"
+    ],
+    "common_product_contexts": [
+      "food/spice",
+      "beverage",
+      "traditional knowledge",
+      "cosmetic",
+      "supplement",
+      "research"
+    ],
+    "possible_uses": [
+      "food preparation",
+      "beverage",
+      "traditional preparation",
+      "topical preparation",
+      "extract preparation"
+    ],
+    "ambiguity_flags": [
+      "multi_context"
+    ]
+  },
+  "grape": {
+    "canonical_name": "grape",
+    "common_names": [
+      "angoor"
+    ],
+    "scientific_names": [
+      "Vitis vinifera"
+    ],
+    "regional_names": [
+      "angoor"
+    ],
+    "forms": [
+      "raw material",
+      "powder",
+      "extract"
+    ],
+    "common_product_contexts": [
+      "food/spice",
+      "beverage",
+      "traditional knowledge",
+      "cosmetic",
+      "supplement",
+      "research"
+    ],
+    "possible_uses": [
+      "food preparation",
+      "beverage",
+      "traditional preparation",
+      "topical preparation",
+      "extract preparation"
+    ],
+    "ambiguity_flags": [
+      "multi_context"
+    ]
+  },
+  "banana": {
+    "canonical_name": "banana",
+    "common_names": [
+      "kela"
+    ],
+    "scientific_names": [
+      "Musa spp."
+    ],
+    "regional_names": [
+      "kela"
+    ],
+    "forms": [
+      "raw material",
+      "powder",
+      "extract"
+    ],
+    "common_product_contexts": [
+      "food/spice",
+      "beverage",
+      "traditional knowledge",
+      "cosmetic",
+      "supplement",
+      "research"
+    ],
+    "possible_uses": [
+      "food preparation",
+      "beverage",
+      "traditional preparation",
+      "topical preparation",
+      "extract preparation"
+    ],
+    "ambiguity_flags": [
+      "multi_context"
+    ]
+  },
+  "apple": {
+    "canonical_name": "apple",
+    "common_names": [
+      "seb"
+    ],
+    "scientific_names": [
+      "Malus domestica"
+    ],
+    "regional_names": [
+      "seb"
+    ],
+    "forms": [
+      "raw material",
+      "powder",
+      "extract"
+    ],
+    "common_product_contexts": [
+      "food/spice",
+      "beverage",
+      "traditional knowledge",
+      "cosmetic",
+      "supplement",
+      "research"
+    ],
+    "possible_uses": [
+      "food preparation",
+      "beverage",
+      "traditional preparation",
+      "topical preparation",
+      "extract preparation"
+    ],
+    "ambiguity_flags": [
+      "multi_context"
+    ]
+  },
+  "carrot": {
+    "canonical_name": "carrot",
+    "common_names": [
+      "gajar"
+    ],
+    "scientific_names": [
+      "Daucus carota"
+    ],
+    "regional_names": [
+      "gajar"
+    ],
+    "forms": [
+      "raw material",
+      "powder",
+      "extract"
+    ],
+    "common_product_contexts": [
+      "food/spice",
+      "beverage",
+      "traditional knowledge",
+      "cosmetic",
+      "supplement",
+      "research"
+    ],
+    "possible_uses": [
+      "food preparation",
+      "beverage",
+      "traditional preparation",
+      "topical preparation",
+      "extract preparation"
+    ],
+    "ambiguity_flags": [
+      "multi_context"
+    ]
+  },
+  "beetroot": {
+    "canonical_name": "beetroot",
+    "common_names": [
+      "beet"
+    ],
+    "scientific_names": [
+      "Beta vulgaris"
+    ],
+    "regional_names": [
+      "chukandar"
+    ],
+    "forms": [
+      "raw material",
+      "powder",
+      "extract"
+    ],
+    "common_product_contexts": [
+      "food/spice",
+      "beverage",
+      "traditional knowledge",
+      "cosmetic",
+      "supplement",
+      "research"
+    ],
+    "possible_uses": [
+      "food preparation",
+      "beverage",
+      "traditional preparation",
+      "topical preparation",
+      "extract preparation"
+    ],
+    "ambiguity_flags": [
+      "multi_context"
+    ]
+  },
+  "spinach": {
+    "canonical_name": "spinach",
+    "common_names": [
+      "palak"
+    ],
+    "scientific_names": [
+      "Spinacia oleracea"
+    ],
+    "regional_names": [
+      "palak"
+    ],
+    "forms": [
+      "raw material",
+      "powder",
+      "extract"
+    ],
+    "common_product_contexts": [
+      "food/spice",
+      "beverage",
+      "traditional knowledge",
+      "cosmetic",
+      "supplement",
+      "research"
+    ],
+    "possible_uses": [
+      "food preparation",
+      "beverage",
+      "traditional preparation",
+      "topical preparation",
+      "extract preparation"
+    ],
+    "ambiguity_flags": [
+      "multi_context"
+    ]
+  },
+  "fenugreek leaf": {
+    "canonical_name": "fenugreek leaf",
+    "common_names": [
+      "kasuri methi"
+    ],
+    "scientific_names": [
+      "Trigonella foenum-graecum"
+    ],
+    "regional_names": [
+      "kasuri methi"
+    ],
+    "forms": [
+      "raw material",
+      "powder",
+      "extract"
+    ],
+    "common_product_contexts": [
+      "food/spice",
+      "beverage",
+      "traditional knowledge",
+      "cosmetic",
+      "supplement",
+      "research"
+    ],
+    "possible_uses": [
+      "food preparation",
+      "beverage",
+      "traditional preparation",
+      "topical preparation",
+      "extract preparation"
+    ],
+    "ambiguity_flags": [
+      "multi_context"
+    ]
+  },
+  "curry leaf": {
+    "canonical_name": "curry leaf",
+    "common_names": [
+      "kadi patta"
+    ],
+    "scientific_names": [
+      "Murraya koenigii"
+    ],
+    "regional_names": [
+      "kadi patta"
+    ],
+    "forms": [
+      "raw material",
+      "powder",
+      "extract"
+    ],
+    "common_product_contexts": [
+      "food/spice",
+      "beverage",
+      "traditional knowledge",
+      "cosmetic",
+      "supplement",
+      "research"
+    ],
+    "possible_uses": [
+      "food preparation",
+      "beverage",
+      "traditional preparation",
+      "topical preparation",
+      "extract preparation"
+    ],
+    "ambiguity_flags": [
+      "multi_context"
+    ]
+  },
+  "lemongrass": {
+    "canonical_name": "lemongrass",
+    "common_names": [
+      "lemon grass"
+    ],
+    "scientific_names": [
+      "Cymbopogon citratus"
+    ],
+    "regional_names": [
+      "lemongrass"
+    ],
+    "forms": [
+      "raw material",
+      "powder",
+      "extract"
+    ],
+    "common_product_contexts": [
+      "food/spice",
+      "beverage",
+      "traditional knowledge",
+      "cosmetic",
+      "supplement",
+      "research"
+    ],
+    "possible_uses": [
+      "food preparation",
+      "beverage",
+      "traditional preparation",
+      "topical preparation",
+      "extract preparation"
+    ],
+    "ambiguity_flags": [
+      "multi_context"
+    ]
+  },
+  "eucalyptus": {
+    "canonical_name": "eucalyptus",
+    "common_names": [
+      "eucalyptus leaf"
+    ],
+    "scientific_names": [
+      "Eucalyptus globulus"
+    ],
+    "regional_names": [
+      "nilgiri"
+    ],
+    "forms": [
+      "raw material",
+      "powder",
+      "extract"
+    ],
+    "common_product_contexts": [
+      "food/spice",
+      "beverage",
+      "traditional knowledge",
+      "cosmetic",
+      "supplement",
+      "research"
+    ],
+    "possible_uses": [
+      "food preparation",
+      "beverage",
+      "traditional preparation",
+      "topical preparation",
+      "extract preparation"
+    ],
+    "ambiguity_flags": [
+      "multi_context"
+    ]
+  },
+  "lavender": {
+    "canonical_name": "lavender",
+    "common_names": [
+      "lavender flower"
+    ],
+    "scientific_names": [
+      "Lavandula angustifolia"
+    ],
+    "regional_names": [
+      "lavender"
+    ],
+    "forms": [
+      "raw material",
+      "powder",
+      "extract"
+    ],
+    "common_product_contexts": [
+      "food/spice",
+      "beverage",
+      "traditional knowledge",
+      "cosmetic",
+      "supplement",
+      "research"
+    ],
+    "possible_uses": [
+      "food preparation",
+      "beverage",
+      "traditional preparation",
+      "topical preparation",
+      "extract preparation"
+    ],
+    "ambiguity_flags": [
+      "multi_context"
+    ]
+  },
+  "chamomile": {
+    "canonical_name": "chamomile",
+    "common_names": [
+      "chamomile flower"
+    ],
+    "scientific_names": [
+      "Matricaria chamomilla"
+    ],
+    "regional_names": [
+      "babuna"
+    ],
+    "forms": [
+      "raw material",
+      "powder",
+      "extract"
+    ],
+    "common_product_contexts": [
+      "food/spice",
+      "beverage",
+      "traditional knowledge",
+      "cosmetic",
+      "supplement",
+      "research"
+    ],
+    "possible_uses": [
+      "food preparation",
+      "beverage",
+      "traditional preparation",
+      "topical preparation",
+      "extract preparation"
+    ],
+    "ambiguity_flags": [
+      "multi_context"
+    ]
+  },
+  "marigold": {
+    "canonical_name": "marigold",
+    "common_names": [
+      "calendula"
+    ],
+    "scientific_names": [
+      "Calendula officinalis"
+    ],
+    "regional_names": [
+      "genda"
+    ],
+    "forms": [
+      "raw material",
+      "powder",
+      "extract"
+    ],
+    "common_product_contexts": [
+      "food/spice",
+      "beverage",
+      "traditional knowledge",
+      "cosmetic",
+      "supplement",
+      "research"
+    ],
+    "possible_uses": [
+      "food preparation",
+      "beverage",
+      "traditional preparation",
+      "topical preparation",
+      "extract preparation"
+    ],
+    "ambiguity_flags": [
+      "multi_context"
+    ]
+  },
+  "hibiscus": {
+    "canonical_name": "hibiscus",
+    "common_names": [
+      "hibiscus flower"
+    ],
+    "scientific_names": [
+      "Hibiscus rosa-sinensis"
+    ],
+    "regional_names": [
+      "gudhal"
+    ],
+    "forms": [
+      "raw material",
+      "powder",
+      "extract"
+    ],
+    "common_product_contexts": [
+      "food/spice",
+      "beverage",
+      "traditional knowledge",
+      "cosmetic",
+      "supplement",
+      "research"
+    ],
+    "possible_uses": [
+      "food preparation",
+      "beverage",
+      "traditional preparation",
+      "topical preparation",
+      "extract preparation"
+    ],
+    "ambiguity_flags": [
+      "multi_context"
+    ]
+  },
+  "jasmine": {
+    "canonical_name": "jasmine",
+    "common_names": [
+      "mogra"
+    ],
+    "scientific_names": [
+      "Jasminum sambac"
+    ],
+    "regional_names": [
+      "mogra"
+    ],
+    "forms": [
+      "raw material",
+      "powder",
+      "extract"
+    ],
+    "common_product_contexts": [
+      "food/spice",
+      "beverage",
+      "traditional knowledge",
+      "cosmetic",
+      "supplement",
+      "research"
+    ],
+    "possible_uses": [
+      "food preparation",
+      "beverage",
+      "traditional preparation",
+      "topical preparation",
+      "extract preparation"
+    ],
+    "ambiguity_flags": [
+      "multi_context"
+    ]
+  },
+  "lotus": {
+    "canonical_name": "lotus",
+    "common_names": [
+      "kamal"
+    ],
+    "scientific_names": [
+      "Nelumbo nucifera"
+    ],
+    "regional_names": [
+      "kamal"
+    ],
+    "forms": [
+      "raw material",
+      "powder",
+      "extract"
+    ],
+    "common_product_contexts": [
+      "food/spice",
+      "beverage",
+      "traditional knowledge",
+      "cosmetic",
+      "supplement",
+      "research"
+    ],
+    "possible_uses": [
+      "food preparation",
+      "beverage",
+      "traditional preparation",
+      "topical preparation",
+      "extract preparation"
+    ],
+    "ambiguity_flags": [
+      "multi_context"
+    ]
+  },
+  "manjistha": {
+    "canonical_name": "manjistha",
+    "common_names": [
+      "manjistha root"
+    ],
+    "scientific_names": [
+      "Rubia cordifolia"
+    ],
+    "regional_names": [
+      "manjistha"
+    ],
+    "forms": [
+      "raw material",
+      "powder",
+      "extract"
+    ],
+    "common_product_contexts": [
+      "food/spice",
+      "beverage",
+      "traditional knowledge",
+      "cosmetic",
+      "supplement",
+      "research"
+    ],
+    "possible_uses": [
+      "food preparation",
+      "beverage",
+      "traditional preparation",
+      "topical preparation",
+      "extract preparation"
+    ],
+    "ambiguity_flags": [
+      "multi_context"
+    ]
+  },
+  "haritaki": {
+    "canonical_name": "haritaki",
+    "common_names": [
+      "harad"
+    ],
+    "scientific_names": [
+      "Terminalia chebula"
+    ],
+    "regional_names": [
+      "harad"
+    ],
+    "forms": [
+      "raw material",
+      "powder",
+      "extract"
+    ],
+    "common_product_contexts": [
+      "food/spice",
+      "beverage",
+      "traditional knowledge",
+      "cosmetic",
+      "supplement",
+      "research"
+    ],
+    "possible_uses": [
+      "food preparation",
+      "beverage",
+      "traditional preparation",
+      "topical preparation",
+      "extract preparation"
+    ],
+    "ambiguity_flags": [
+      "multi_context"
+    ]
+  },
+  "bibhitaki": {
+    "canonical_name": "bibhitaki",
+    "common_names": [
+      "baheda"
+    ],
+    "scientific_names": [
+      "Terminalia bellirica"
+    ],
+    "regional_names": [
+      "baheda"
+    ],
+    "forms": [
+      "raw material",
+      "powder",
+      "extract"
+    ],
+    "common_product_contexts": [
+      "food/spice",
+      "beverage",
+      "traditional knowledge",
+      "cosmetic",
+      "supplement",
+      "research"
+    ],
+    "possible_uses": [
+      "food preparation",
+      "beverage",
+      "traditional preparation",
+      "topical preparation",
+      "extract preparation"
+    ],
+    "ambiguity_flags": [
+      "multi_context"
+    ]
+  },
+  "triphalā": {
+    "canonical_name": "triphalā",
+    "common_names": [
+      "triphalā"
+    ],
+    "scientific_names": [
+      "Terminalia chebula; Terminalia bellirica; Phyllanthus emblica"
+    ],
+    "regional_names": [
+      "triphala"
+    ],
+    "forms": [
+      "raw material",
+      "powder",
+      "extract"
+    ],
+    "common_product_contexts": [
+      "food/spice",
+      "beverage",
+      "traditional knowledge",
+      "cosmetic",
+      "supplement",
+      "research"
+    ],
+    "possible_uses": [
+      "food preparation",
+      "beverage",
+      "traditional preparation",
+      "topical preparation",
+      "extract preparation"
+    ],
+    "ambiguity_flags": [
+      "multi_context"
+    ]
+  },
+  "arjuna": {
+    "canonical_name": "arjuna",
+    "common_names": [
+      "arjun"
+    ],
+    "scientific_names": [
+      "Terminalia arjuna"
+    ],
+    "regional_names": [
+      "arjun"
+    ],
+    "forms": [
+      "raw material",
+      "powder",
+      "extract"
+    ],
+    "common_product_contexts": [
+      "food/spice",
+      "beverage",
+      "traditional knowledge",
+      "cosmetic",
+      "supplement",
+      "research"
+    ],
+    "possible_uses": [
+      "food preparation",
+      "beverage",
+      "traditional preparation",
+      "topical preparation",
+      "extract preparation"
+    ],
+    "ambiguity_flags": [
+      "multi_context"
+    ]
+  },
+  "brahmi oil": {
+    "canonical_name": "brahmi oil",
+    "common_names": [
+      "brahmi oil"
+    ],
+    "scientific_names": [
+      "Bacopa monnieri"
+    ],
+    "regional_names": [
+      "brahmi"
+    ],
+    "forms": [
+      "oil",
+      "extract",
+      "raw material"
+    ],
+    "common_product_contexts": [
+      "cosmetic",
+      "industrial",
+      "research",
+      "supplement"
+    ],
+    "possible_uses": [
+      "food preparation",
+      "beverage",
+      "traditional preparation",
+      "topical preparation",
+      "extract preparation"
+    ],
+    "ambiguity_flags": [
+      "multi_context"
+    ]
+  },
+  "gotu kola": {
+    "canonical_name": "gotu kola",
+    "common_names": [
+      "mandukaparni"
+    ],
+    "scientific_names": [
+      "Centella asiatica"
+    ],
+    "regional_names": [
+      "mandukaparni"
+    ],
+    "forms": [
+      "raw material",
+      "powder",
+      "extract"
+    ],
+    "common_product_contexts": [
+      "food/spice",
+      "beverage",
+      "traditional knowledge",
+      "cosmetic",
+      "supplement",
+      "research"
+    ],
+    "possible_uses": [
+      "food preparation",
+      "beverage",
+      "traditional preparation",
+      "topical preparation",
+      "extract preparation"
+    ],
+    "ambiguity_flags": [
+      "multi_context"
+    ]
+  },
+  "ginseng": {
+    "canonical_name": "ginseng",
+    "common_names": [
+      "asian ginseng"
+    ],
+    "scientific_names": [
+      "Panax ginseng"
+    ],
+    "regional_names": [
+      "ginseng"
+    ],
+    "forms": [
+      "raw material",
+      "powder",
+      "extract"
+    ],
+    "common_product_contexts": [
+      "food/spice",
+      "beverage",
+      "traditional knowledge",
+      "cosmetic",
+      "supplement",
+      "research"
+    ],
+    "possible_uses": [
+      "food preparation",
+      "beverage",
+      "traditional preparation",
+      "topical preparation",
+      "extract preparation"
+    ],
+    "ambiguity_flags": [
+      "multi_context"
+    ]
+  },
+  "fenugreek extract": {
+    "canonical_name": "fenugreek extract",
+    "common_names": [
+      "methi extract"
+    ],
+    "scientific_names": [
+      "Trigonella foenum-graecum"
+    ],
+    "regional_names": [
+      "methi"
+    ],
+    "forms": [
+      "raw material",
+      "powder",
+      "extract"
+    ],
+    "common_product_contexts": [
+      "food/spice",
+      "beverage",
+      "traditional knowledge",
+      "cosmetic",
+      "supplement",
+      "research"
+    ],
+    "possible_uses": [
+      "food preparation",
+      "beverage",
+      "traditional preparation",
+      "topical preparation",
+      "extract preparation"
+    ],
+    "ambiguity_flags": [
+      "multi_context"
+    ]
+  },
+  "green tea": {
+    "canonical_name": "green tea",
+    "common_names": [
+      "green tea"
+    ],
+    "scientific_names": [
+      "Camellia sinensis"
+    ],
+    "regional_names": [
+      "green tea"
+    ],
+    "forms": [
+      "tea",
+      "leaf",
+      "powder",
+      "extract"
+    ],
+    "common_product_contexts": [
+      "food",
+      "beverage",
+      "industrial",
+      "traditional knowledge"
+    ],
+    "possible_uses": [
+      "food preparation",
+      "beverage",
+      "traditional preparation",
+      "topical preparation",
+      "extract preparation"
+    ],
+    "ambiguity_flags": [
+      "multi_context"
+    ]
+  },
+  "black tea": {
+    "canonical_name": "black tea",
+    "common_names": [
+      "black tea"
+    ],
+    "scientific_names": [
+      "Camellia sinensis"
+    ],
+    "regional_names": [
+      "black tea"
+    ],
+    "forms": [
+      "tea",
+      "leaf",
+      "powder",
+      "extract"
+    ],
+    "common_product_contexts": [
+      "food",
+      "beverage",
+      "industrial",
+      "traditional knowledge"
+    ],
+    "possible_uses": [
+      "food preparation",
+      "beverage",
+      "traditional preparation",
+      "topical preparation",
+      "extract preparation"
+    ],
+    "ambiguity_flags": [
+      "multi_context"
+    ]
+  },
+  "matcha": {
+    "canonical_name": "matcha",
+    "common_names": [
+      "matcha tea"
+    ],
+    "scientific_names": [
+      "Camellia sinensis"
+    ],
+    "regional_names": [
+      "matcha"
+    ],
+    "forms": [
+      "raw material",
+      "powder",
+      "extract"
+    ],
+    "common_product_contexts": [
+      "food/spice",
+      "beverage",
+      "traditional knowledge",
+      "cosmetic",
+      "supplement",
+      "research"
+    ],
+    "possible_uses": [
+      "food preparation",
+      "beverage",
+      "traditional preparation",
+      "topical preparation",
+      "extract preparation"
+    ],
+    "ambiguity_flags": [
+      "multi_context"
+    ]
+  },
+  "cocoa": {
+    "canonical_name": "cocoa",
+    "common_names": [
+      "cacao"
+    ],
+    "scientific_names": [
+      "Theobroma cacao"
+    ],
+    "regional_names": [
+      "cocoa"
+    ],
+    "forms": [
+      "raw material",
+      "powder",
+      "extract"
+    ],
+    "common_product_contexts": [
+      "food",
+      "beverage",
+      "industrial",
+      "traditional knowledge"
+    ],
+    "possible_uses": [
+      "food preparation",
+      "beverage",
+      "traditional preparation",
+      "topical preparation",
+      "extract preparation"
+    ],
+    "ambiguity_flags": [
+      "multi_context"
+    ]
+  },
+  "vanilla": {
+    "canonical_name": "vanilla",
+    "common_names": [
+      "vanilla bean"
+    ],
+    "scientific_names": [
+      "Vanilla planifolia"
+    ],
+    "regional_names": [
+      "vanilla"
+    ],
+    "forms": [
+      "raw material",
+      "powder",
+      "extract"
+    ],
+    "common_product_contexts": [
+      "food",
+      "beverage",
+      "industrial",
+      "traditional knowledge"
+    ],
+    "possible_uses": [
+      "food preparation",
+      "beverage",
+      "traditional preparation",
+      "topical preparation",
+      "extract preparation"
+    ],
+    "ambiguity_flags": [
+      "multi_context"
+    ]
+  },
+  "saffron": {
+    "canonical_name": "saffron",
+    "common_names": [
+      "kesar"
+    ],
+    "scientific_names": [
+      "Crocus sativus"
+    ],
+    "regional_names": [
+      "kesar"
+    ],
+    "forms": [
+      "raw material",
+      "powder",
+      "extract"
+    ],
+    "common_product_contexts": [
+      "food",
+      "beverage",
+      "industrial",
+      "traditional knowledge"
+    ],
+    "possible_uses": [
+      "food preparation",
+      "beverage",
+      "traditional preparation",
+      "topical preparation",
+      "extract preparation"
+    ],
+    "ambiguity_flags": [
+      "multi_context"
+    ]
+  },
+  "rock salt": {
+    "canonical_name": "rock salt",
+    "common_names": [
+      "sendha namak"
+    ],
+    "scientific_names": [
+      "sodium chloride mineral salt"
+    ],
+    "regional_names": [
+      "sendha namak"
+    ],
+    "forms": [
+      "raw material",
+      "powder",
+      "extract"
+    ],
+    "common_product_contexts": [
+      "food",
+      "beverage",
+      "industrial",
+      "traditional knowledge"
+    ],
+    "possible_uses": [
+      "food preparation",
+      "beverage",
+      "traditional preparation",
+      "topical preparation",
+      "extract preparation"
+    ],
+    "ambiguity_flags": [
+      "multi_context"
+    ]
+  },
+  "black salt": {
+    "canonical_name": "black salt",
+    "common_names": [
+      "kala namak"
+    ],
+    "scientific_names": [
+      "sodium chloride mineral salt"
+    ],
+    "regional_names": [
+      "kala namak"
+    ],
+    "forms": [
+      "raw material",
+      "powder",
+      "extract"
+    ],
+    "common_product_contexts": [
+      "food",
+      "beverage",
+      "industrial",
+      "traditional knowledge"
+    ],
+    "possible_uses": [
+      "food preparation",
+      "beverage",
+      "traditional preparation",
+      "topical preparation",
+      "extract preparation"
+    ],
+    "ambiguity_flags": [
+      "multi_context"
+    ]
+  },
+  "salt": {
+    "canonical_name": "salt",
+    "common_names": [
+      "namak"
+    ],
+    "scientific_names": [
+      "sodium chloride"
+    ],
+    "regional_names": [
+      "namak"
+    ],
+    "forms": [
+      "raw material",
+      "powder",
+      "extract"
+    ],
+    "common_product_contexts": [
+      "food",
+      "beverage",
+      "industrial",
+      "traditional knowledge"
+    ],
+    "possible_uses": [
+      "food preparation",
+      "beverage",
+      "traditional preparation",
+      "topical preparation",
+      "extract preparation"
+    ],
+    "ambiguity_flags": [
+      "multi_context"
+    ]
+  },
+  "sugar": {
+    "canonical_name": "sugar",
+    "common_names": [
+      "cheeni"
+    ],
+    "scientific_names": [
+      "sucrose"
+    ],
+    "regional_names": [
+      "cheeni"
+    ],
+    "forms": [
+      "raw material",
+      "powder",
+      "extract"
+    ],
+    "common_product_contexts": [
+      "food",
+      "beverage",
+      "industrial",
+      "traditional knowledge"
+    ],
+    "possible_uses": [
+      "food preparation",
+      "beverage",
+      "traditional preparation",
+      "topical preparation",
+      "extract preparation"
+    ],
+    "ambiguity_flags": [
+      "multi_context"
+    ]
+  },
+  "jaggery": {
+    "canonical_name": "jaggery",
+    "common_names": [
+      "gur"
+    ],
+    "scientific_names": [
+      "sucrose-rich cane product"
+    ],
+    "regional_names": [
+      "gur"
+    ],
+    "forms": [
+      "raw material",
+      "powder",
+      "extract"
+    ],
+    "common_product_contexts": [
+      "food/spice",
+      "beverage",
+      "traditional knowledge",
+      "cosmetic",
+      "supplement",
+      "research"
+    ],
+    "possible_uses": [
+      "food preparation",
+      "beverage",
+      "traditional preparation",
+      "topical preparation",
+      "extract preparation"
+    ],
+    "ambiguity_flags": [
+      "multi_context"
+    ]
+  },
+  "honey": {
+    "canonical_name": "honey",
+    "common_names": [
+      "madhu"
+    ],
+    "scientific_names": [
+      "Apis mellifera product"
+    ],
+    "regional_names": [
+      "madhu"
+    ],
+    "forms": [
+      "raw material",
+      "powder",
+      "extract"
+    ],
+    "common_product_contexts": [
+      "food",
+      "beverage",
+      "industrial",
+      "traditional knowledge"
+    ],
+    "possible_uses": [
+      "food preparation",
+      "beverage",
+      "traditional preparation",
+      "topical preparation",
+      "extract preparation"
+    ],
+    "ambiguity_flags": [
+      "multi_context"
+    ]
+  },
+  "propolis": {
+    "canonical_name": "propolis",
+    "common_names": [
+      "bee resin"
+    ],
+    "scientific_names": [
+      "Apis spp. resin"
+    ],
+    "regional_names": [
+      "propolis"
+    ],
+    "forms": [
+      "raw material",
+      "powder",
+      "extract"
+    ],
+    "common_product_contexts": [
+      "food/spice",
+      "beverage",
+      "traditional knowledge",
+      "cosmetic",
+      "supplement",
+      "research"
+    ],
+    "possible_uses": [
+      "food preparation",
+      "beverage",
+      "traditional preparation",
+      "topical preparation",
+      "extract preparation"
+    ],
+    "ambiguity_flags": [
+      "multi_context"
+    ]
+  },
+  "beeswax": {
+    "canonical_name": "beeswax",
+    "common_names": [
+      "madhumakhi wax"
+    ],
+    "scientific_names": [
+      "Apis spp. wax"
+    ],
+    "regional_names": [
+      "beeswax"
+    ],
+    "forms": [
+      "raw material",
+      "powder",
+      "extract"
+    ],
+    "common_product_contexts": [
+      "cosmetic",
+      "industrial",
+      "research",
+      "supplement"
+    ],
+    "possible_uses": [
+      "food preparation",
+      "beverage",
+      "traditional preparation",
+      "topical preparation",
+      "extract preparation"
+    ],
+    "ambiguity_flags": [
+      "multi_context"
+    ]
+  },
+  "lanolin": {
+    "canonical_name": "lanolin",
+    "common_names": [
+      "wool wax"
+    ],
+    "scientific_names": [
+      "sheep-derived wax"
+    ],
+    "regional_names": [
+      "lanolin"
+    ],
+    "forms": [
+      "raw material",
+      "powder",
+      "extract"
+    ],
+    "common_product_contexts": [
+      "food/spice",
+      "beverage",
+      "traditional knowledge",
+      "cosmetic",
+      "supplement",
+      "research"
+    ],
+    "possible_uses": [
+      "food preparation",
+      "beverage",
+      "traditional preparation",
+      "topical preparation",
+      "extract preparation"
+    ],
+    "ambiguity_flags": [
+      "multi_context"
+    ]
+  },
+  "glycerin": {
+    "canonical_name": "glycerin",
+    "common_names": [
+      "glycerol"
+    ],
+    "scientific_names": [
+      "glycerol"
+    ],
+    "regional_names": [
+      "glycerin"
+    ],
+    "forms": [
+      "raw material",
+      "powder",
+      "extract"
+    ],
+    "common_product_contexts": [
+      "cosmetic",
+      "industrial",
+      "research",
+      "supplement"
+    ],
+    "possible_uses": [
+      "food preparation",
+      "beverage",
+      "traditional preparation",
+      "topical preparation",
+      "extract preparation"
+    ],
+    "ambiguity_flags": [
+      "multi_context"
+    ]
+  },
+  "beeswax extract": {
+    "canonical_name": "beeswax extract",
+    "common_names": [
+      "beeswax"
+    ],
+    "scientific_names": [
+      "Apis spp. wax"
+    ],
+    "regional_names": [
+      "beeswax"
+    ],
+    "forms": [
+      "raw material",
+      "powder",
+      "extract"
+    ],
+    "common_product_contexts": [
+      "cosmetic",
+      "industrial",
+      "research",
+      "supplement"
+    ],
+    "possible_uses": [
+      "food preparation",
+      "beverage",
+      "traditional preparation",
+      "topical preparation",
+      "extract preparation"
+    ],
+    "ambiguity_flags": [
+      "multi_context"
+    ]
+  },
+  "vitamin c": {
+    "canonical_name": "vitamin c",
+    "common_names": [
+      "ascorbic acid"
+    ],
+    "scientific_names": [
+      "Ascorbic acid"
+    ],
+    "regional_names": [
+      "vitamin C"
+    ],
+    "forms": [
+      "raw material",
+      "powder",
+      "extract"
+    ],
+    "common_product_contexts": [
+      "food/spice",
+      "beverage",
+      "traditional knowledge",
+      "cosmetic",
+      "supplement",
+      "research"
+    ],
+    "possible_uses": [
+      "food preparation",
+      "beverage",
+      "traditional preparation",
+      "topical preparation",
+      "extract preparation"
+    ],
+    "ambiguity_flags": [
+      "multi_context"
+    ]
+  },
+  "vitamin e": {
+    "canonical_name": "vitamin e",
+    "common_names": [
+      "tocopherol"
+    ],
+    "scientific_names": [
+      "alpha-tocopherol"
+    ],
+    "regional_names": [
+      "vitamin E"
+    ],
+    "forms": [
+      "raw material",
+      "powder",
+      "extract"
+    ],
+    "common_product_contexts": [
+      "food/spice",
+      "beverage",
+      "traditional knowledge",
+      "cosmetic",
+      "supplement",
+      "research"
+    ],
+    "possible_uses": [
+      "food preparation",
+      "beverage",
+      "traditional preparation",
+      "topical preparation",
+      "extract preparation"
+    ],
+    "ambiguity_flags": [
+      "multi_context"
+    ]
+  },
+  "zinc": {
+    "canonical_name": "zinc",
+    "common_names": [
+      "zinc mineral"
+    ],
+    "scientific_names": [
+      "Zinc"
+    ],
+    "regional_names": [
+      "zinc"
+    ],
+    "forms": [
+      "raw material",
+      "powder",
+      "extract"
+    ],
+    "common_product_contexts": [
+      "food/spice",
+      "beverage",
+      "traditional knowledge",
+      "cosmetic",
+      "supplement",
+      "research"
+    ],
+    "possible_uses": [
+      "food preparation",
+      "beverage",
+      "traditional preparation",
+      "topical preparation",
+      "extract preparation"
+    ],
+    "ambiguity_flags": [
+      "multi_context"
+    ]
+  },
+  "iron": {
+    "canonical_name": "iron",
+    "common_names": [
+      "iron mineral"
+    ],
+    "scientific_names": [
+      "Iron"
+    ],
+    "regional_names": [
+      "iron"
+    ],
+    "forms": [
+      "raw material",
+      "powder",
+      "extract"
+    ],
+    "common_product_contexts": [
+      "food/spice",
+      "beverage",
+      "traditional knowledge",
+      "cosmetic",
+      "supplement",
+      "research"
+    ],
+    "possible_uses": [
+      "food preparation",
+      "beverage",
+      "traditional preparation",
+      "topical preparation",
+      "extract preparation"
+    ],
+    "ambiguity_flags": [
+      "multi_context"
+    ]
+  },
+  "calcium": {
+    "canonical_name": "calcium",
+    "common_names": [
+      "calcium mineral"
+    ],
+    "scientific_names": [
+      "Calcium"
+    ],
+    "regional_names": [
+      "calcium"
+    ],
+    "forms": [
+      "raw material",
+      "powder",
+      "extract"
+    ],
+    "common_product_contexts": [
+      "food/spice",
+      "beverage",
+      "traditional knowledge",
+      "cosmetic",
+      "supplement",
+      "research"
+    ],
+    "possible_uses": [
+      "food preparation",
+      "beverage",
+      "traditional preparation",
+      "topical preparation",
+      "extract preparation"
+    ],
+    "ambiguity_flags": [
+      "multi_context"
+    ]
+  },
+  "magnesium": {
+    "canonical_name": "magnesium",
+    "common_names": [
+      "magnesium mineral"
+    ],
+    "scientific_names": [
+      "Magnesium"
+    ],
+    "regional_names": [
+      "magnesium"
+    ],
+    "forms": [
+      "raw material",
+      "powder",
+      "extract"
+    ],
+    "common_product_contexts": [
+      "food/spice",
+      "beverage",
+      "traditional knowledge",
+      "cosmetic",
+      "supplement",
+      "research"
+    ],
+    "possible_uses": [
+      "food preparation",
+      "beverage",
+      "traditional preparation",
+      "topical preparation",
+      "extract preparation"
+    ],
+    "ambiguity_flags": [
+      "multi_context"
+    ]
+  },
+  "collagen": {
+    "canonical_name": "collagen",
+    "common_names": [
+      "collagen protein"
+    ],
+    "scientific_names": [
+      "Collagen"
+    ],
+    "regional_names": [
+      "collagen"
+    ],
+    "forms": [
+      "raw material",
+      "powder",
+      "extract"
+    ],
+    "common_product_contexts": [
+      "food/spice",
+      "beverage",
+      "traditional knowledge",
+      "cosmetic",
+      "supplement",
+      "research"
+    ],
+    "possible_uses": [
+      "food preparation",
+      "beverage",
+      "traditional preparation",
+      "topical preparation",
+      "extract preparation"
+    ],
+    "ambiguity_flags": [
+      "multi_context"
+    ]
+  },
+  "hyaluronic acid": {
+    "canonical_name": "hyaluronic acid",
+    "common_names": [
+      "HA"
+    ],
+    "scientific_names": [
+      "Hyaluronic acid"
+    ],
+    "regional_names": [
+      "hyaluronic acid"
+    ],
+    "forms": [
+      "raw material",
+      "powder",
+      "extract"
+    ],
+    "common_product_contexts": [
+      "cosmetic",
+      "industrial",
+      "research",
+      "supplement"
+    ],
+    "possible_uses": [
+      "food preparation",
+      "beverage",
+      "traditional preparation",
+      "topical preparation",
+      "extract preparation"
+    ],
+    "ambiguity_flags": [
+      "multi_context"
+    ]
+  },
+  "niacinamide": {
+    "canonical_name": "niacinamide",
+    "common_names": [
+      "nicotinamide"
+    ],
+    "scientific_names": [
+      "Nicotinamide"
+    ],
+    "regional_names": [
+      "niacinamide"
+    ],
+    "forms": [
+      "raw material",
+      "powder",
+      "extract"
+    ],
+    "common_product_contexts": [
+      "cosmetic",
+      "industrial",
+      "research",
+      "supplement"
+    ],
+    "possible_uses": [
+      "food preparation",
+      "beverage",
+      "traditional preparation",
+      "topical preparation",
+      "extract preparation"
+    ],
+    "ambiguity_flags": [
+      "multi_context"
+    ]
+  },
+  "salicylic acid": {
+    "canonical_name": "salicylic acid",
+    "common_names": [
+      "BHA"
+    ],
+    "scientific_names": [
+      "Salicylic acid"
+    ],
+    "regional_names": [
+      "salicylic acid"
+    ],
+    "forms": [
+      "raw material",
+      "powder",
+      "extract"
+    ],
+    "common_product_contexts": [
+      "cosmetic",
+      "industrial",
+      "research",
+      "supplement"
+    ],
+    "possible_uses": [
+      "food preparation",
+      "beverage",
+      "traditional preparation",
+      "topical preparation",
+      "extract preparation"
+    ],
+    "ambiguity_flags": [
+      "multi_context"
+    ]
+  },
+  "citric acid": {
+    "canonical_name": "citric acid",
+    "common_names": [
+      "citrate"
+    ],
+    "scientific_names": [
+      "Citric acid"
+    ],
+    "regional_names": [
+      "citric acid"
+    ],
+    "forms": [
+      "raw material",
+      "powder",
+      "extract"
+    ],
+    "common_product_contexts": [
+      "food/spice",
+      "beverage",
+      "traditional knowledge",
+      "cosmetic",
+      "supplement",
+      "research"
+    ],
+    "possible_uses": [
+      "food preparation",
+      "beverage",
+      "traditional preparation",
+      "topical preparation",
+      "extract preparation"
+    ],
+    "ambiguity_flags": [
+      "multi_context"
+    ]
+  },
+  "lactic acid": {
+    "canonical_name": "lactic acid",
+    "common_names": [
+      "lactate"
+    ],
+    "scientific_names": [
+      "Lactic acid"
+    ],
+    "regional_names": [
+      "lactic acid"
+    ],
+    "forms": [
+      "raw material",
+      "powder",
+      "extract"
+    ],
+    "common_product_contexts": [
+      "food/spice",
+      "beverage",
+      "traditional knowledge",
+      "cosmetic",
+      "supplement",
+      "research"
+    ],
+    "possible_uses": [
+      "food preparation",
+      "beverage",
+      "traditional preparation",
+      "topical preparation",
+      "extract preparation"
+    ],
+    "ambiguity_flags": [
+      "multi_context"
+    ]
+  },
+  "urea": {
+    "canonical_name": "urea",
+    "common_names": [
+      "carbamide"
+    ],
+    "scientific_names": [
+      "Urea"
+    ],
+    "regional_names": [
+      "urea"
+    ],
+    "forms": [
+      "raw material",
+      "powder",
+      "extract"
+    ],
+    "common_product_contexts": [
+      "food/spice",
+      "beverage",
+      "traditional knowledge",
+      "cosmetic",
+      "supplement",
+      "research"
+    ],
+    "possible_uses": [
+      "food preparation",
+      "beverage",
+      "traditional preparation",
+      "topical preparation",
+      "extract preparation"
+    ],
+    "ambiguity_flags": [
+      "multi_context"
+    ]
+  },
+  "zinc oxide": {
+    "canonical_name": "zinc oxide",
+    "common_names": [
+      "zinc oxide"
+    ],
+    "scientific_names": [
+      "Zinc oxide"
+    ],
+    "regional_names": [
+      "zinc oxide"
+    ],
+    "forms": [
+      "raw material",
+      "powder",
+      "extract"
+    ],
+    "common_product_contexts": [
+      "cosmetic",
+      "industrial",
+      "research",
+      "supplement"
+    ],
+    "possible_uses": [
+      "food preparation",
+      "beverage",
+      "traditional preparation",
+      "topical preparation",
+      "extract preparation"
+    ],
+    "ambiguity_flags": [
+      "multi_context"
+    ]
+  },
+  "titanium dioxide": {
+    "canonical_name": "titanium dioxide",
+    "common_names": [
+      "titanium oxide"
+    ],
+    "scientific_names": [
+      "Titanium dioxide"
+    ],
+    "regional_names": [
+      "titanium dioxide"
+    ],
+    "forms": [
+      "raw material",
+      "powder",
+      "extract"
+    ],
+    "common_product_contexts": [
+      "cosmetic",
+      "industrial",
+      "research",
+      "supplement"
+    ],
+    "possible_uses": [
+      "food preparation",
+      "beverage",
+      "traditional preparation",
+      "topical preparation",
+      "extract preparation"
+    ],
+    "ambiguity_flags": [
+      "multi_context"
+    ]
+  },
+  "kaolin": {
+    "canonical_name": "kaolin",
+    "common_names": [
+      "china clay"
+    ],
+    "scientific_names": [
+      "Kaolinite"
+    ],
+    "regional_names": [
+      "multani-style clay"
+    ],
+    "forms": [
+      "raw material",
+      "powder",
+      "extract"
+    ],
+    "common_product_contexts": [
+      "cosmetic",
+      "industrial",
+      "research",
+      "supplement"
+    ],
+    "possible_uses": [
+      "food preparation",
+      "beverage",
+      "traditional preparation",
+      "topical preparation",
+      "extract preparation"
+    ],
+    "ambiguity_flags": [
+      "multi_context"
+    ]
+  },
+  "bentonite": {
+    "canonical_name": "bentonite",
+    "common_names": [
+      "bentonite clay"
+    ],
+    "scientific_names": [
+      "Bentonite"
+    ],
+    "regional_names": [
+      "bentonite"
+    ],
+    "forms": [
+      "raw material",
+      "powder",
+      "extract"
+    ],
+    "common_product_contexts": [
+      "cosmetic",
+      "industrial",
+      "research",
+      "supplement"
+    ],
+    "possible_uses": [
+      "food preparation",
+      "beverage",
+      "traditional preparation",
+      "topical preparation",
+      "extract preparation"
+    ],
+    "ambiguity_flags": [
+      "multi_context"
+    ]
+  },
+  "multani mitti": {
+    "canonical_name": "multani mitti",
+    "common_names": [
+      "fuller's earth"
+    ],
+    "scientific_names": [
+      "Clay mixture"
+    ],
+    "regional_names": [
+      "multani mitti"
+    ],
+    "forms": [
+      "raw material",
+      "powder",
+      "extract"
+    ],
+    "common_product_contexts": [
+      "food/spice",
+      "beverage",
+      "traditional knowledge",
+      "cosmetic",
+      "supplement",
+      "research"
+    ],
+    "possible_uses": [
+      "food preparation",
+      "beverage",
+      "traditional preparation",
+      "topical preparation",
+      "extract preparation"
+    ],
+    "ambiguity_flags": [
+      "multi_context"
+    ]
+  },
+  "charcoal": {
+    "canonical_name": "charcoal",
+    "common_names": [
+      "activated charcoal"
+    ],
+    "scientific_names": [
+      "Carbon"
+    ],
+    "regional_names": [
+      "charcoal"
+    ],
+    "forms": [
+      "raw material",
+      "powder",
+      "extract"
+    ],
+    "common_product_contexts": [
+      "food/spice",
+      "beverage",
+      "traditional knowledge",
+      "cosmetic",
+      "supplement",
+      "research"
+    ],
+    "possible_uses": [
+      "food preparation",
+      "beverage",
+      "traditional preparation",
+      "topical preparation",
+      "extract preparation"
+    ],
+    "ambiguity_flags": [
+      "multi_context"
+    ]
+  },
+  "activated charcoal": {
+    "canonical_name": "activated charcoal",
+    "common_names": [
+      "activated carbon"
+    ],
+    "scientific_names": [
+      "Carbon"
+    ],
+    "regional_names": [
+      "activated charcoal"
+    ],
+    "forms": [
+      "raw material",
+      "powder",
+      "extract"
+    ],
+    "common_product_contexts": [
+      "food/spice",
+      "beverage",
+      "traditional knowledge",
+      "cosmetic",
+      "supplement",
+      "research"
+    ],
+    "possible_uses": [
+      "food preparation",
+      "beverage",
+      "traditional preparation",
+      "topical preparation",
+      "extract preparation"
+    ],
+    "ambiguity_flags": [
+      "multi_context"
+    ]
+  },
+  "tea tree": {
+    "canonical_name": "tea tree",
+    "common_names": [
+      "tea tree oil"
+    ],
+    "scientific_names": [
+      "Melaleuca alternifolia"
+    ],
+    "regional_names": [
+      "tea tree"
+    ],
+    "forms": [
+      "tea",
+      "leaf",
+      "powder",
+      "extract"
+    ],
+    "common_product_contexts": [
+      "food",
+      "beverage",
+      "industrial",
+      "traditional knowledge"
+    ],
+    "possible_uses": [
+      "food preparation",
+      "beverage",
+      "traditional preparation",
+      "topical preparation",
+      "extract preparation"
+    ],
+    "ambiguity_flags": [
+      "multi_context"
+    ]
+  },
+  "jojoba": {
+    "canonical_name": "jojoba",
+    "common_names": [
+      "jojoba oil"
+    ],
+    "scientific_names": [
+      "Simmondsia chinensis"
+    ],
+    "regional_names": [
+      "jojoba"
+    ],
+    "forms": [
+      "raw material",
+      "powder",
+      "extract"
+    ],
+    "common_product_contexts": [
+      "food/spice",
+      "beverage",
+      "traditional knowledge",
+      "cosmetic",
+      "supplement",
+      "research"
+    ],
+    "possible_uses": [
+      "food preparation",
+      "beverage",
+      "traditional preparation",
+      "topical preparation",
+      "extract preparation"
+    ],
+    "ambiguity_flags": [
+      "multi_context"
+    ]
+  },
+  "argan": {
+    "canonical_name": "argan",
+    "common_names": [
+      "argan oil"
+    ],
+    "scientific_names": [
+      "Argania spinosa"
+    ],
+    "regional_names": [
+      "argan"
+    ],
+    "forms": [
+      "raw material",
+      "powder",
+      "extract"
+    ],
+    "common_product_contexts": [
+      "food/spice",
+      "beverage",
+      "traditional knowledge",
+      "cosmetic",
+      "supplement",
+      "research"
+    ],
+    "possible_uses": [
+      "food preparation",
+      "beverage",
+      "traditional preparation",
+      "topical preparation",
+      "extract preparation"
+    ],
+    "ambiguity_flags": [
+      "multi_context"
+    ]
+  },
+  "avocado": {
+    "canonical_name": "avocado",
+    "common_names": [
+      "avocado oil"
+    ],
+    "scientific_names": [
+      "Persea americana"
+    ],
+    "regional_names": [
+      "avocado"
+    ],
+    "forms": [
+      "raw material",
+      "powder",
+      "extract"
+    ],
+    "common_product_contexts": [
+      "food/spice",
+      "beverage",
+      "traditional knowledge",
+      "cosmetic",
+      "supplement",
+      "research"
+    ],
+    "possible_uses": [
+      "food preparation",
+      "beverage",
+      "traditional preparation",
+      "topical preparation",
+      "extract preparation"
+    ],
+    "ambiguity_flags": [
+      "multi_context"
+    ]
+  },
+  "almond oil": {
+    "canonical_name": "almond oil",
+    "common_names": [
+      "badam oil"
+    ],
+    "scientific_names": [
+      "Prunus dulcis"
+    ],
+    "regional_names": [
+      "badam tel"
+    ],
+    "forms": [
+      "oil",
+      "extract",
+      "raw material"
+    ],
+    "common_product_contexts": [
+      "cosmetic",
+      "industrial",
+      "research",
+      "supplement"
+    ],
+    "possible_uses": [
+      "food preparation",
+      "beverage",
+      "traditional preparation",
+      "topical preparation",
+      "extract preparation"
+    ],
+    "ambiguity_flags": [
+      "multi_context"
+    ]
+  },
+  "mustard oil": {
+    "canonical_name": "mustard oil",
+    "common_names": [
+      "sarson oil"
+    ],
+    "scientific_names": [
+      "Brassica juncea"
+    ],
+    "regional_names": [
+      "sarson tel"
+    ],
+    "forms": [
+      "oil",
+      "extract",
+      "raw material"
+    ],
+    "common_product_contexts": [
+      "cosmetic",
+      "industrial",
+      "research",
+      "supplement"
+    ],
+    "possible_uses": [
+      "food preparation",
+      "beverage",
+      "traditional preparation",
+      "topical preparation",
+      "extract preparation"
+    ],
+    "ambiguity_flags": [
+      "multi_context"
+    ]
+  },
+  "coconut oil": {
+    "canonical_name": "coconut oil",
+    "common_names": [
+      "narial oil"
+    ],
+    "scientific_names": [
+      "Cocos nucifera"
+    ],
+    "regional_names": [
+      "nariyal tel"
+    ],
+    "forms": [
+      "oil",
+      "extract",
+      "raw material"
+    ],
+    "common_product_contexts": [
+      "cosmetic",
+      "industrial",
+      "research",
+      "supplement"
+    ],
+    "possible_uses": [
+      "food preparation",
+      "beverage",
+      "traditional preparation",
+      "topical preparation",
+      "extract preparation"
+    ],
+    "ambiguity_flags": [
+      "multi_context"
+    ]
+  },
+  "olive oil": {
+    "canonical_name": "olive oil",
+    "common_names": [
+      "zaitoon oil"
+    ],
+    "scientific_names": [
+      "Olea europaea"
+    ],
+    "regional_names": [
+      "zaitoon tel"
+    ],
+    "forms": [
+      "oil",
+      "extract",
+      "raw material"
+    ],
+    "common_product_contexts": [
+      "cosmetic",
+      "industrial",
+      "research",
+      "supplement"
+    ],
+    "possible_uses": [
+      "food preparation",
+      "beverage",
+      "traditional preparation",
+      "topical preparation",
+      "extract preparation"
+    ],
+    "ambiguity_flags": [
+      "multi_context"
+    ]
+  },
+  "rice bran": {
+    "canonical_name": "rice bran",
+    "common_names": [
+      "rice bran oil"
+    ],
+    "scientific_names": [
+      "Oryza sativa"
+    ],
+    "regional_names": [
+      "rice bran"
+    ],
+    "forms": [
+      "raw material",
+      "powder",
+      "extract"
+    ],
+    "common_product_contexts": [
+      "food",
+      "agricultural",
+      "research",
+      "traditional knowledge"
+    ],
+    "possible_uses": [
+      "food preparation",
+      "beverage",
+      "traditional preparation",
+      "topical preparation",
+      "extract preparation"
+    ],
+    "ambiguity_flags": [
+      "multi_context"
+    ]
+  },
+  "wheat germ": {
+    "canonical_name": "wheat germ",
+    "common_names": [
+      "wheat germ oil"
+    ],
+    "scientific_names": [
+      "Triticum aestivum"
+    ],
+    "regional_names": [
+      "wheat germ"
+    ],
+    "forms": [
+      "raw material",
+      "powder",
+      "extract"
+    ],
+    "common_product_contexts": [
+      "food",
+      "agricultural",
+      "research",
+      "traditional knowledge"
+    ],
+    "possible_uses": [
+      "food preparation",
+      "beverage",
+      "traditional preparation",
+      "topical preparation",
+      "extract preparation"
+    ],
+    "ambiguity_flags": [
+      "multi_context"
+    ]
+  },
+  "soy protein": {
+    "canonical_name": "soy protein",
+    "common_names": [
+      "soy isolate"
+    ],
+    "scientific_names": [
+      "Glycine max"
+    ],
+    "regional_names": [
+      "soy"
+    ],
+    "forms": [
+      "raw material",
+      "powder",
+      "extract"
+    ],
+    "common_product_contexts": [
+      "food/spice",
+      "beverage",
+      "traditional knowledge",
+      "cosmetic",
+      "supplement",
+      "research"
+    ],
+    "possible_uses": [
+      "food preparation",
+      "beverage",
+      "traditional preparation",
+      "topical preparation",
+      "extract preparation"
+    ],
+    "ambiguity_flags": [
+      "multi_context"
+    ]
+  },
+  "pea protein": {
+    "canonical_name": "pea protein",
+    "common_names": [
+      "pea isolate"
+    ],
+    "scientific_names": [
+      "Pisum sativum"
+    ],
+    "regional_names": [
+      "pea"
+    ],
+    "forms": [
+      "raw material",
+      "powder",
+      "extract"
+    ],
+    "common_product_contexts": [
+      "food/spice",
+      "beverage",
+      "traditional knowledge",
+      "cosmetic",
+      "supplement",
+      "research"
+    ],
+    "possible_uses": [
+      "food preparation",
+      "beverage",
+      "traditional preparation",
+      "topical preparation",
+      "extract preparation"
+    ],
+    "ambiguity_flags": [
+      "multi_context"
+    ]
+  },
+  "psyllium": {
+    "canonical_name": "psyllium",
+    "common_names": [
+      "isabgol"
+    ],
+    "scientific_names": [
+      "Plantago ovata"
+    ],
+    "regional_names": [
+      "isabgol"
+    ],
+    "forms": [
+      "raw material",
+      "powder",
+      "extract"
+    ],
+    "common_product_contexts": [
+      "food/spice",
+      "beverage",
+      "traditional knowledge",
+      "cosmetic",
+      "supplement",
+      "research"
+    ],
+    "possible_uses": [
+      "food preparation",
+      "beverage",
+      "traditional preparation",
+      "topical preparation",
+      "extract preparation"
+    ],
+    "ambiguity_flags": [
+      "multi_context"
+    ]
+  },
+  "isabgol": {
+    "canonical_name": "isabgol",
+    "common_names": [
+      "psyllium husk"
+    ],
+    "scientific_names": [
+      "Plantago ovata"
+    ],
+    "regional_names": [
+      "isabgol"
+    ],
+    "forms": [
+      "raw material",
+      "powder",
+      "extract"
+    ],
+    "common_product_contexts": [
+      "food/spice",
+      "beverage",
+      "traditional knowledge",
+      "cosmetic",
+      "supplement",
+      "research"
+    ],
+    "possible_uses": [
+      "food preparation",
+      "beverage",
+      "traditional preparation",
+      "topical preparation",
+      "extract preparation"
+    ],
+    "ambiguity_flags": [
+      "multi_context"
+    ]
+  },
+  "senna": {
+    "canonical_name": "senna",
+    "common_names": [
+      "senna leaf"
+    ],
+    "scientific_names": [
+      "Senna alexandrina"
+    ],
+    "regional_names": [
+      "sonamukhi"
+    ],
+    "forms": [
+      "raw material",
+      "powder",
+      "extract"
+    ],
+    "common_product_contexts": [
+      "food/spice",
+      "beverage",
+      "traditional knowledge",
+      "cosmetic",
+      "supplement",
+      "research"
+    ],
+    "possible_uses": [
+      "food preparation",
+      "beverage",
+      "traditional preparation",
+      "topical preparation",
+      "extract preparation"
+    ],
+    "ambiguity_flags": [
+      "multi_context"
+    ]
+  },
+  "stevia": {
+    "canonical_name": "stevia",
+    "common_names": [
+      "stevia leaf"
+    ],
+    "scientific_names": [
+      "Stevia rebaudiana"
+    ],
+    "regional_names": [
+      "stevia"
+    ],
+    "forms": [
+      "raw material",
+      "powder",
+      "extract"
+    ],
+    "common_product_contexts": [
+      "food/spice",
+      "beverage",
+      "traditional knowledge",
+      "cosmetic",
+      "supplement",
+      "research"
+    ],
+    "possible_uses": [
+      "food preparation",
+      "beverage",
+      "traditional preparation",
+      "topical preparation",
+      "extract preparation"
+    ],
+    "ambiguity_flags": [
+      "multi_context"
+    ]
+  },
+  "monk fruit": {
+    "canonical_name": "monk fruit",
+    "common_names": [
+      "luo han guo"
+    ],
+    "scientific_names": [
+      "Siraitia grosvenorii"
+    ],
+    "regional_names": [
+      "monk fruit"
+    ],
+    "forms": [
+      "raw material",
+      "powder",
+      "extract"
+    ],
+    "common_product_contexts": [
+      "food/spice",
+      "beverage",
+      "traditional knowledge",
+      "cosmetic",
+      "supplement",
+      "research"
+    ],
+    "possible_uses": [
+      "food preparation",
+      "beverage",
+      "traditional preparation",
+      "topical preparation",
+      "extract preparation"
+    ],
+    "ambiguity_flags": [
+      "multi_context"
+    ]
+  },
+  "spirulina": {
+    "canonical_name": "spirulina",
+    "common_names": [
+      "spirulina algae"
+    ],
+    "scientific_names": [
+      "Arthrospira platensis"
+    ],
+    "regional_names": [
+      "spirulina"
+    ],
+    "forms": [
+      "raw material",
+      "powder",
+      "extract"
+    ],
+    "common_product_contexts": [
+      "food/spice",
+      "beverage",
+      "traditional knowledge",
+      "cosmetic",
+      "supplement",
+      "research"
+    ],
+    "possible_uses": [
+      "food preparation",
+      "beverage",
+      "traditional preparation",
+      "topical preparation",
+      "extract preparation"
+    ],
+    "ambiguity_flags": [
+      "multi_context"
+    ]
+  },
+  "chlorella": {
+    "canonical_name": "chlorella",
+    "common_names": [
+      "chlorella algae"
+    ],
+    "scientific_names": [
+      "Chlorella vulgaris"
+    ],
+    "regional_names": [
+      "chlorella"
+    ],
+    "forms": [
+      "raw material",
+      "powder",
+      "extract"
+    ],
+    "common_product_contexts": [
+      "food/spice",
+      "beverage",
+      "traditional knowledge",
+      "cosmetic",
+      "supplement",
+      "research"
+    ],
+    "possible_uses": [
+      "food preparation",
+      "beverage",
+      "traditional preparation",
+      "topical preparation",
+      "extract preparation"
+    ],
+    "ambiguity_flags": [
+      "multi_context"
+    ]
+  },
+  "yeast": {
+    "canonical_name": "yeast",
+    "common_names": [
+      "baker's yeast"
+    ],
+    "scientific_names": [
+      "Saccharomyces cerevisiae"
+    ],
+    "regional_names": [
+      "khameer"
+    ],
+    "forms": [
+      "raw material",
+      "powder",
+      "extract"
+    ],
+    "common_product_contexts": [
+      "food/spice",
+      "beverage",
+      "traditional knowledge",
+      "cosmetic",
+      "supplement",
+      "research"
+    ],
+    "possible_uses": [
+      "food preparation",
+      "beverage",
+      "traditional preparation",
+      "topical preparation",
+      "extract preparation"
+    ],
+    "ambiguity_flags": [
+      "multi_context"
+    ]
+  },
+  "vinegar": {
+    "canonical_name": "vinegar",
+    "common_names": [
+      "acetic acid solution"
+    ],
+    "scientific_names": [
+      "Acetic acid solution"
+    ],
+    "regional_names": [
+      "sirka"
+    ],
+    "forms": [
+      "raw material",
+      "powder",
+      "extract"
+    ],
+    "common_product_contexts": [
+      "food",
+      "beverage",
+      "industrial",
+      "traditional knowledge"
+    ],
+    "possible_uses": [
+      "food preparation",
+      "beverage",
+      "traditional preparation",
+      "topical preparation",
+      "extract preparation"
+    ],
+    "ambiguity_flags": [
+      "multi_context"
+    ]
+  },
+  "apple cider vinegar": {
+    "canonical_name": "apple cider vinegar",
+    "common_names": [
+      "ACV"
+    ],
+    "scientific_names": [
+      "Acetic acid solution from apple"
+    ],
+    "regional_names": [
+      "seb ka sirka"
+    ],
+    "forms": [
+      "raw material",
+      "powder",
+      "extract"
+    ],
+    "common_product_contexts": [
+      "food",
+      "beverage",
+      "industrial",
+      "traditional knowledge"
+    ],
+    "possible_uses": [
+      "food preparation",
+      "beverage",
+      "traditional preparation",
+      "topical preparation",
+      "extract preparation"
+    ],
+    "ambiguity_flags": [
+      "multi_context"
+    ]
+  },
+  "baking soda": {
+    "canonical_name": "baking soda",
+    "common_names": [
+      "sodium bicarbonate"
+    ],
+    "scientific_names": [
+      "Sodium bicarbonate"
+    ],
+    "regional_names": [
+      "meetha soda"
+    ],
+    "forms": [
+      "raw material",
+      "powder",
+      "extract"
+    ],
+    "common_product_contexts": [
+      "food",
+      "beverage",
+      "industrial",
+      "traditional knowledge"
+    ],
+    "possible_uses": [
+      "food preparation",
+      "beverage",
+      "traditional preparation",
+      "topical preparation",
+      "extract preparation"
+    ],
+    "ambiguity_flags": [
+      "multi_context"
+    ]
+  },
+  "baking powder": {
+    "canonical_name": "baking powder",
+    "common_names": [
+      "leavening powder"
+    ],
+    "scientific_names": [
+      "Sodium bicarbonate blend"
+    ],
+    "regional_names": [
+      "baking powder"
+    ],
+    "forms": [
+      "raw material",
+      "powder",
+      "extract"
+    ],
+    "common_product_contexts": [
+      "food",
+      "beverage",
+      "industrial",
+      "traditional knowledge"
+    ],
+    "possible_uses": [
+      "food preparation",
+      "beverage",
+      "traditional preparation",
+      "topical preparation",
+      "extract preparation"
+    ],
+    "ambiguity_flags": [
+      "multi_context"
+    ]
+  },
+  "corn starch": {
+    "canonical_name": "corn starch",
+    "common_names": [
+      "cornflour"
+    ],
+    "scientific_names": [
+      "Zea mays starch"
+    ],
+    "regional_names": [
+      "corn starch"
+    ],
+    "forms": [
+      "raw material",
+      "powder",
+      "extract"
+    ],
+    "common_product_contexts": [
+      "food",
+      "beverage",
+      "industrial",
+      "traditional knowledge"
+    ],
+    "possible_uses": [
+      "food preparation",
+      "beverage",
+      "traditional preparation",
+      "topical preparation",
+      "extract preparation"
+    ],
+    "ambiguity_flags": [
+      "multi_context"
+    ]
+  },
+  "tapioca": {
+    "canonical_name": "tapioca",
+    "common_names": [
+      "cassava starch"
+    ],
+    "scientific_names": [
+      "Manihot esculenta"
+    ],
+    "regional_names": [
+      "sabudana"
+    ],
+    "forms": [
+      "raw material",
+      "powder",
+      "extract"
+    ],
+    "common_product_contexts": [
+      "food/spice",
+      "beverage",
+      "traditional knowledge",
+      "cosmetic",
+      "supplement",
+      "research"
+    ],
+    "possible_uses": [
+      "food preparation",
+      "beverage",
+      "traditional preparation",
+      "topical preparation",
+      "extract preparation"
+    ],
+    "ambiguity_flags": [
+      "multi_context"
+    ]
+  },
+  "cassava": {
+    "canonical_name": "cassava",
+    "common_names": [
+      "tapioca root"
+    ],
+    "scientific_names": [
+      "Manihot esculenta"
+    ],
+    "regional_names": [
+      "cassava"
+    ],
+    "forms": [
+      "raw material",
+      "powder",
+      "extract"
+    ],
+    "common_product_contexts": [
+      "food/spice",
+      "beverage",
+      "traditional knowledge",
+      "cosmetic",
+      "supplement",
+      "research"
+    ],
+    "possible_uses": [
+      "food preparation",
+      "beverage",
+      "traditional preparation",
+      "topical preparation",
+      "extract preparation"
+    ],
+    "ambiguity_flags": [
+      "multi_context"
+    ]
+  },
+  "potato": {
+    "canonical_name": "potato",
+    "common_names": [
+      "aloo"
+    ],
+    "scientific_names": [
+      "Solanum tuberosum"
+    ],
+    "regional_names": [
+      "aloo"
+    ],
+    "forms": [
+      "raw material",
+      "powder",
+      "extract"
+    ],
+    "common_product_contexts": [
+      "food",
+      "agricultural",
+      "research",
+      "traditional knowledge"
+    ],
+    "possible_uses": [
+      "food preparation",
+      "beverage",
+      "traditional preparation",
+      "topical preparation",
+      "extract preparation"
+    ],
+    "ambiguity_flags": [
+      "multi_context"
+    ]
+  },
+  "tomato": {
+    "canonical_name": "tomato",
+    "common_names": [
+      "tamatar"
+    ],
+    "scientific_names": [
+      "Solanum lycopersicum"
+    ],
+    "regional_names": [
+      "tamatar"
+    ],
+    "forms": [
+      "raw material",
+      "powder",
+      "extract"
+    ],
+    "common_product_contexts": [
+      "food",
+      "agricultural",
+      "research",
+      "traditional knowledge"
+    ],
+    "possible_uses": [
+      "food preparation",
+      "beverage",
+      "traditional preparation",
+      "topical preparation",
+      "extract preparation"
+    ],
+    "ambiguity_flags": [
+      "multi_context"
+    ]
+  },
+  "cucumber": {
+    "canonical_name": "cucumber",
+    "common_names": [
+      "kheera"
+    ],
+    "scientific_names": [
+      "Cucumis sativus"
+    ],
+    "regional_names": [
+      "kheera"
+    ],
+    "forms": [
+      "raw material",
+      "powder",
+      "extract"
+    ],
+    "common_product_contexts": [
+      "food",
+      "agricultural",
+      "research",
+      "traditional knowledge"
+    ],
+    "possible_uses": [
+      "food preparation",
+      "beverage",
+      "traditional preparation",
+      "topical preparation",
+      "extract preparation"
+    ],
+    "ambiguity_flags": [
+      "multi_context"
+    ]
+  },
+  "pumpkin": {
+    "canonical_name": "pumpkin",
+    "common_names": [
+      "kaddu"
+    ],
+    "scientific_names": [
+      "Cucurbita spp."
+    ],
+    "regional_names": [
+      "kaddu"
+    ],
+    "forms": [
+      "raw material",
+      "powder",
+      "extract"
+    ],
+    "common_product_contexts": [
+      "food",
+      "agricultural",
+      "research",
+      "traditional knowledge"
+    ],
+    "possible_uses": [
+      "food preparation",
+      "beverage",
+      "traditional preparation",
+      "topical preparation",
+      "extract preparation"
+    ],
+    "ambiguity_flags": [
+      "multi_context"
+    ]
+  },
+  "bitter gourd": {
+    "canonical_name": "bitter gourd",
+    "common_names": [
+      "karela"
+    ],
+    "scientific_names": [
+      "Momordica charantia"
+    ],
+    "regional_names": [
+      "karela"
+    ],
+    "forms": [
+      "raw material",
+      "powder",
+      "extract"
+    ],
+    "common_product_contexts": [
+      "food/spice",
+      "beverage",
+      "traditional knowledge",
+      "cosmetic",
+      "supplement",
+      "research"
+    ],
+    "possible_uses": [
+      "food preparation",
+      "beverage",
+      "traditional preparation",
+      "topical preparation",
+      "extract preparation"
+    ],
+    "ambiguity_flags": [
+      "multi_context"
+    ]
+  },
+  "bottle gourd": {
+    "canonical_name": "bottle gourd",
+    "common_names": [
+      "lauki"
+    ],
+    "scientific_names": [
+      "Lagenaria siceraria"
+    ],
+    "regional_names": [
+      "lauki"
+    ],
+    "forms": [
+      "raw material",
+      "powder",
+      "extract"
+    ],
+    "common_product_contexts": [
+      "food/spice",
+      "beverage",
+      "traditional knowledge",
+      "cosmetic",
+      "supplement",
+      "research"
+    ],
+    "possible_uses": [
+      "food preparation",
+      "beverage",
+      "traditional preparation",
+      "topical preparation",
+      "extract preparation"
+    ],
+    "ambiguity_flags": [
+      "multi_context"
+    ]
+  },
+  "ash gourd": {
+    "canonical_name": "ash gourd",
+    "common_names": [
+      "petha"
+    ],
+    "scientific_names": [
+      "Benincasa hispida"
+    ],
+    "regional_names": [
+      "petha"
+    ],
+    "forms": [
+      "raw material",
+      "powder",
+      "extract"
+    ],
+    "common_product_contexts": [
+      "food/spice",
+      "beverage",
+      "traditional knowledge",
+      "cosmetic",
+      "supplement",
+      "research"
+    ],
+    "possible_uses": [
+      "food preparation",
+      "beverage",
+      "traditional preparation",
+      "topical preparation",
+      "extract preparation"
+    ],
+    "ambiguity_flags": [
+      "multi_context"
+    ]
+  },
+  "fenugreek seed": {
+    "canonical_name": "fenugreek seed",
+    "common_names": [
+      "methi seed"
+    ],
+    "scientific_names": [
+      "Trigonella foenum-graecum"
+    ],
+    "regional_names": [
+      "methi dana"
+    ],
+    "forms": [
+      "seed",
+      "powder",
+      "oil",
+      "extract"
+    ],
+    "common_product_contexts": [
+      "food",
+      "agricultural",
+      "research",
+      "traditional knowledge"
+    ],
+    "possible_uses": [
+      "food preparation",
+      "beverage",
+      "traditional preparation",
+      "topical preparation",
+      "extract preparation"
+    ],
+    "ambiguity_flags": [
+      "multi_context"
+    ]
+  },
+  "mustard seed": {
+    "canonical_name": "mustard seed",
+    "common_names": [
+      "rai"
+    ],
+    "scientific_names": [
+      "Brassica juncea"
+    ],
+    "regional_names": [
+      "rai"
+    ],
+    "forms": [
+      "seed",
+      "powder",
+      "oil",
+      "extract"
+    ],
+    "common_product_contexts": [
+      "food",
+      "agricultural",
+      "research",
+      "traditional knowledge"
+    ],
+    "possible_uses": [
+      "food preparation",
+      "beverage",
+      "traditional preparation",
+      "topical preparation",
+      "extract preparation"
+    ],
+    "ambiguity_flags": [
+      "multi_context"
+    ]
+  },
+  "sesame seed": {
+    "canonical_name": "sesame seed",
+    "common_names": [
+      "til seed"
+    ],
+    "scientific_names": [
+      "Sesamum indicum"
+    ],
+    "regional_names": [
+      "til"
+    ],
+    "forms": [
+      "seed",
+      "powder",
+      "oil",
+      "extract"
+    ],
+    "common_product_contexts": [
+      "food",
+      "agricultural",
+      "research",
+      "traditional knowledge"
+    ],
+    "possible_uses": [
+      "food preparation",
+      "beverage",
+      "traditional preparation",
+      "topical preparation",
+      "extract preparation"
+    ],
+    "ambiguity_flags": [
+      "multi_context"
+    ]
+  },
+  "pumpkin seed": {
+    "canonical_name": "pumpkin seed",
+    "common_names": [
+      "kaddu seed"
+    ],
+    "scientific_names": [
+      "Cucurbita pepo"
+    ],
+    "regional_names": [
+      "kaddu seed"
+    ],
+    "forms": [
+      "seed",
+      "powder",
+      "oil",
+      "extract"
+    ],
+    "common_product_contexts": [
+      "food",
+      "agricultural",
+      "research",
+      "traditional knowledge"
+    ],
+    "possible_uses": [
+      "food preparation",
+      "beverage",
+      "traditional preparation",
+      "topical preparation",
+      "extract preparation"
+    ],
+    "ambiguity_flags": [
+      "multi_context"
+    ]
+  },
+  "sunflower seed": {
+    "canonical_name": "sunflower seed",
+    "common_names": [
+      "surajmukhi seed"
+    ],
+    "scientific_names": [
+      "Helianthus annuus"
+    ],
+    "regional_names": [
+      "surajmukhi"
+    ],
+    "forms": [
+      "seed",
+      "powder",
+      "oil",
+      "extract"
+    ],
+    "common_product_contexts": [
+      "food",
+      "agricultural",
+      "research",
+      "traditional knowledge"
+    ],
+    "possible_uses": [
+      "food preparation",
+      "beverage",
+      "traditional preparation",
+      "topical preparation",
+      "extract preparation"
+    ],
+    "ambiguity_flags": [
+      "multi_context"
+    ]
+  },
+  "hemp seed": {
+    "canonical_name": "hemp seed",
+    "common_names": [
+      "hemp seed"
+    ],
+    "scientific_names": [
+      "Cannabis sativa seed"
+    ],
+    "regional_names": [
+      "hemp seed"
+    ],
+    "forms": [
+      "seed",
+      "powder",
+      "oil",
+      "extract"
+    ],
+    "common_product_contexts": [
+      "food",
+      "agricultural",
+      "research",
+      "traditional knowledge"
+    ],
+    "possible_uses": [
+      "food preparation",
+      "beverage",
+      "traditional preparation",
+      "topical preparation",
+      "extract preparation"
+    ],
+    "ambiguity_flags": [
+      "multi_context"
+    ]
+  },
+  "flaxseed oil": {
+    "canonical_name": "flaxseed oil",
+    "common_names": [
+      "alsi oil"
+    ],
+    "scientific_names": [
+      "Linum usitatissimum"
+    ],
+    "regional_names": [
+      "alsi tel"
+    ],
+    "forms": [
+      "oil",
+      "extract",
+      "raw material"
+    ],
+    "common_product_contexts": [
+      "cosmetic",
+      "industrial",
+      "research",
+      "supplement"
+    ],
+    "possible_uses": [
+      "food preparation",
+      "beverage",
+      "traditional preparation",
+      "topical preparation",
+      "extract preparation"
+    ],
+    "ambiguity_flags": [
+      "multi_context"
+    ]
+  },
+  "evening primrose": {
+    "canonical_name": "evening primrose",
+    "common_names": [
+      "evening primrose oil"
+    ],
+    "scientific_names": [
+      "Oenothera biennis"
+    ],
+    "regional_names": [
+      "evening primrose"
+    ],
+    "forms": [
+      "raw material",
+      "powder",
+      "extract"
+    ],
+    "common_product_contexts": [
+      "food/spice",
+      "beverage",
+      "traditional knowledge",
+      "cosmetic",
+      "supplement",
+      "research"
+    ],
+    "possible_uses": [
+      "food preparation",
+      "beverage",
+      "traditional preparation",
+      "topical preparation",
+      "extract preparation"
+    ],
+    "ambiguity_flags": [
+      "multi_context"
+    ]
+  },
+  "black seed": {
+    "canonical_name": "black seed",
+    "common_names": [
+      "black cumin"
+    ],
+    "scientific_names": [
+      "Nigella sativa"
+    ],
+    "regional_names": [
+      "kalonji"
+    ],
+    "forms": [
+      "seed",
+      "powder",
+      "oil",
+      "extract"
+    ],
+    "common_product_contexts": [
+      "food",
+      "agricultural",
+      "research",
+      "traditional knowledge"
+    ],
+    "possible_uses": [
+      "food preparation",
+      "beverage",
+      "traditional preparation",
+      "topical preparation",
+      "extract preparation"
+    ],
+    "ambiguity_flags": [
+      "multi_context"
+    ]
+  },
+  "borage": {
+    "canonical_name": "borage",
+    "common_names": [
+      "borage oil"
+    ],
+    "scientific_names": [
+      "Borago officinalis"
+    ],
+    "regional_names": [
+      "borage"
+    ],
+    "forms": [
+      "raw material",
+      "powder",
+      "extract"
+    ],
+    "common_product_contexts": [
+      "food/spice",
+      "beverage",
+      "traditional knowledge",
+      "cosmetic",
+      "supplement",
+      "research"
+    ],
+    "possible_uses": [
+      "food preparation",
+      "beverage",
+      "traditional preparation",
+      "topical preparation",
+      "extract preparation"
+    ],
+    "ambiguity_flags": [
+      "multi_context"
+    ]
+  }
+}
