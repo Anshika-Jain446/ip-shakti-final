@@ -1,0 +1,14 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "services": {
+    "frontend": {
+      "root": "frontend/",
+      "framework": "vite"
+    },
+    "backend": {
+      "root": "ip-sakti-mvp/backend/",
+      "framework": "fastapi",
+      "entrypoint": "main:app"
+    }
+  }
+}
