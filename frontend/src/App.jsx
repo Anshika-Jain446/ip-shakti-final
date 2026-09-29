@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect, useRef } from "react";
 import { Routes, Route } from "react-router-dom";
 import LandingPage from "./LandingPage";
 import Navbar from "./components/Navbar";
@@ -21,117 +21,108 @@ function toStr(val) {
 }
 
 function getDomainMetrics(result, domainCode) {
-  const domains = result.domains || [];
+  const domains = Array.isArray(result.domains) ? result.domains : [];
   const isIncluded = domains.includes(domainCode);
-  const confScore = result.confidence?.score || 0.82;
+  const confScore =
+    typeof result.confidence?.score === "number"
+      ? Math.max(0, Math.min(1, result.confidence.score))
+      : 0;
 
-  if (domainCode === "TK") {
-    if (isIncluded) {
-      const pct = Math.round(confScore * 96);
-      return { width: `${pct}%`, label: pct > 80 ? "Flagged" : "Relevant", color: "#d97706" };
-    }
-    return { width: "18%", label: "Low Risk", color: "#6b7280" };
+  // The backend routes the product to domains. Do not invent domain-specific
+  // risk scores by multiplying the overall confidence.
+  if (isIncluded) {
+    return {
+      width: `${Math.round(confScore * 100)}%`,
+      label: "Routed",
+      color: "#3F6844",
+    };
   }
-
-  if (domainCode === "ABS") {
-    if (isIncluded) {
-      const pct = Math.round(confScore * 76);
-      return { width: `${pct}%`, label: pct > 60 ? "Review Required" : "Permissible", color: "#8A6421" };
-    }
-    return { width: "12%", label: "Exempt", color: "#6b7280" };
-  }
-
-  if (domainCode === "IP") {
-    if (isIncluded) {
-      const pct = Math.round(confScore * 84);
-      return { width: `${pct}%`, label: pct > 70 ? "Prior Art Risk" : "Partial", color: "#3F6844" };
-    }
-    return { width: "25%", label: "Clear", color: "#3F6844" };
-  }
-
-  return { width: "50%", label: "Standard", color: "#6b7280" };
-}
-
-function generateLocalAnalysis(payload) {
-  const pName = payload.product_name || "Custom Formulation";
-  const pType = payload.product_type || "Ayurvedic formulation";
-  const pPurpose = payload.purpose || "Health and wellness usage";
-  const ingArr = payload.ingredients?.length > 0 ? payload.ingredients : ["Active natural components"];
-  const ingList = ingArr.join(", ");
-  const tkChoice = payload.based_on_traditional_knowledge || "Not sure";
-  const isTk = tkChoice === "Yes" || pType.toLowerCase().includes("ayurvedic") || pType.toLowerCase().includes("herbal");
-  const jurisdiction = payload.jurisdiction || "India";
-
-  // Calculate dynamic hash modifier based on product name string length & char codes
-  let nameHash = 0;
-  for (let i = 0; i < pName.length; i++) nameHash += pName.charCodeAt(i);
-  const hashFactor = (nameHash % 15) / 100; // e.g. 0.00 to 0.14 variance
-
-  // Compute dynamic confidence score
-  const rawScore = isTk ? 0.82 + hashFactor : (pType.includes("Food") ? 0.73 + hashFactor : 0.68 + hashFactor);
-  const baseScore = Math.min(0.96, Math.max(0.65, Math.round(rawScore * 100) / 100));
-
-  const domains = isTk ? ["TK", "ABS", "IP"] : (pType.includes("Cosmetic") ? ["IP", "ABS"] : ["TK", "IP"]);
 
   return {
-    product: payload,
-    classification: {
-      label: pType,
-      product_type: pType,
-      traditional_knowledge_status: isTk ? "HIGH" : (tkChoice === "No" ? "LOW" : "MODERATE"),
-      jurisdiction: jurisdiction,
-      reasons: [
-        `Formulation "${pName}" contains specified ingredients: ${ingList}.`,
-        `Intended use "${pPurpose}" evaluated against classical prior art and regulatory categories in ${jurisdiction}.`,
-        isTk
-          ? `Product category (${pType}) and ingredients (${ingList}) closely match traditional knowledge records.`
-          : `Assessed as a general formulation requiring novelty and inventive step verification.`
-      ]
-    },
-    domains: domains,
-    confidence: {
-      score: baseScore,
-      level: baseScore >= 0.85 ? "HIGH" : (baseScore >= 0.72 ? "MEDIUM" : "MODERATE"),
-      warning: `Grounding verified for "${pName}" (${ingList}) against ${jurisdiction} biological diversity & prior art frameworks.`
-    },
-    evidence: [
-      {
-        id: `ev-${pName.toLowerCase().replace(/[^a-z0-9]/g, "")}-1`,
-        domain: isTk ? "TK" : "IP",
-        source: isTk ? "Traditional Knowledge Digital Library (TKDL)" : "Indian Patent Prior Art Index",
-        score: Math.round((baseScore * 10) * 10) / 10,
-        text: `Documented literature for (${ingList}) in relation to "${pPurpose}". Referenced in classical Ayurvedic & medicinal plant records for ${jurisdiction}.`,
-        source_url: isTk ? "https://www.tkdl.res.in" : "https://ipindia.gov.in"
-      },
-      {
-        id: `ev-${pName.toLowerCase().replace(/[^a-z0-9]/g, "")}-2`,
-        domain: "ABS",
-        source: `National Biodiversity Authority (${jurisdiction})`,
-        score: Math.round((baseScore * 8.8) * 10) / 10,
-        text: `Biological resources (${ingList}) sourced within ${jurisdiction} for commercial production of "${pName}" fall under Section 3 / Section 7 Biodiversity compliance guidelines.`,
-        source_url: "https://nbaindia.org"
-      },
-      {
-        id: `ev-${pName.toLowerCase().replace(/[^a-z0-9]/g, "")}-3`,
-        domain: "IP",
-        source: "Indian Patent Office (IPO) Guidelines",
-        score: Math.round((baseScore * 7.9) * 10) / 10,
-        text: `Section 3(p) analysis for "${pName}": Claims involving ${ingList} for ${pPurpose} must demonstrate non-obvious synergistic efficacy beyond traditional properties.`,
-        source_url: "https://ipindia.gov.in"
-      }
-    ],
-    validation: {
-      status: "EVIDENCE_FOUND",
-      supported_domains: domains,
-      unsupported_domains: [],
-      message: `Dynamic analysis completed for "${pName}" · Supported: ${domains.join(", ")}`
-    },
-    action_plan: [
-      `Perform a targeted TKDL prior-art query specifically for ${ingList} mapped to ${pPurpose}.`,
-      `File Form I / intimation with National Biodiversity Authority (NBA) if biological raw materials (${ingList}) are processed commercially.`,
-      `Review patentability claims for "${pName}" under Section 3(p) to ensure synergistic data is documented.`
-    ]
+    width: "0%",
+    label: "Not routed",
+    color: "#6b7280",
   };
+}
+
+function formatEvidenceScore(score) {
+  if (typeof score !== "number") return toStr(score);
+  if (score <= 1) return `${Math.round(score * 100)}%`;
+  if (score <= 10) return `${Math.round(score * 10)}%`;
+  return `${Math.round(Math.min(score, 100))}%`;
+}
+
+
+/* Browser voice input for the product-intake fields.
+   Keeps voice as an input method; analysis still comes only from the backend. */
+function VoiceInput({ value, onChange, language = "en-IN" }) {
+  const recognitionRef = useRef(null);
+  const [listening, setListening] = useState(false);
+  const [supported, setSupported] = useState(true);
+
+  useEffect(() => {
+    const SpeechRecognition =
+      window.SpeechRecognition || window.webkitSpeechRecognition;
+
+    if (!SpeechRecognition) {
+      setSupported(false);
+      return;
+    }
+
+    const recognition = new SpeechRecognition();
+    recognition.continuous = false;
+    recognition.interimResults = false;
+    recognition.lang = language;
+
+    recognition.onstart = () => setListening(true);
+    recognition.onend = () => setListening(false);
+    recognition.onerror = () => setListening(false);
+    recognition.onresult = (event) => {
+      const transcript = event.results?.[0]?.[0]?.transcript?.trim();
+      if (transcript) {
+        onChange(value ? `${value}, ${transcript}` : transcript);
+      }
+    };
+
+    recognitionRef.current = recognition;
+
+    return () => {
+      try {
+        recognition.stop();
+      } catch {}
+      recognitionRef.current = null;
+    };
+  }, [language]); // eslint-disable-line react-hooks/exhaustive-deps
+
+  if (!supported) return null;
+
+  function toggleVoice() {
+    const recognition = recognitionRef.current;
+    if (!recognition) return;
+
+    if (listening) {
+      try {
+        recognition.stop();
+      } catch {}
+    } else {
+      try {
+        recognition.lang = language;
+        recognition.start();
+      } catch {}
+    }
+  }
+
+  return (
+    <button
+      type="button"
+      onClick={toggleVoice}
+      className={`voice-input-button ${listening ? "voice-listening" : ""}`}
+      aria-label={listening ? "Stop voice input" : "Start voice input"}
+      title={listening ? "Listening... click to stop" : "Speak product details"}
+    >
+      {listening ? "⏹ Stop listening" : "🎙 Voice input"}
+    </button>
+  );
 }
 
 function Dashboard() {
@@ -147,6 +138,7 @@ function Dashboard() {
   const [result, setResult] = useState(null);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
+  const [voiceLanguage, setVoiceLanguage] = useState("en-IN");
 
   function update(key, value) {
     setForm((old) => ({ ...old, [key]: value }));
@@ -166,36 +158,53 @@ function Dashboard() {
         .filter(Boolean),
     };
 
-    let data = null;
+    let lastError = "Analysis service unavailable.";
+
     for (const host of API_ENDPOINTS) {
+      const controller = new AbortController();
+      const timeoutId = setTimeout(() => controller.abort(), 60000);
+
       try {
-        const controller = new AbortController();
-        const timeoutId = setTimeout(() => controller.abort(), 2000);
         const response = await fetch(`${host}/api/analyze`, {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify(payload),
           signal: controller.signal,
         });
+
         clearTimeout(timeoutId);
 
         if (response.ok) {
-          data = await response.json();
-          break;
+          const data = await response.json();
+          setResult(data);
+          setLoading(false);
+          return;
         }
+
+        let detail = "";
+        try {
+          const errorBody = await response.json();
+          detail = errorBody?.detail
+            ? ` ${toStr(errorBody.detail)}`
+            : "";
+        } catch {
+          // Ignore non-JSON error bodies.
+        }
+
+        lastError = `Analysis service returned ${response.status}.${detail}`;
       } catch (err) {
-        // Fallback to next endpoint or instant smart analysis
+        clearTimeout(timeoutId);
+        lastError =
+          err?.name === "AbortError"
+            ? "Analysis timed out. Please try again."
+            : "Could not reach the analysis service.";
       }
     }
 
-    if (!data) {
-      // Smart instant fallback engine
-      data = generateLocalAnalysis(payload);
-    }
-
-    setResult(data);
+    setError(lastError);
     setLoading(false);
   }
+
 
   /* Extract a human-readable reasoning string from the backend response */
   function getReasoningText(res) {
@@ -275,26 +284,69 @@ function Dashboard() {
             assume missing facts.
           </p>
 
+          <div className="voice-intake-panel">
+            <div>
+              <strong>Voice-assisted intake</strong>
+              <p className="muted">
+                Speak product details directly into the intake fields. Voice is
+                only an input method; the backend remains the source of truth
+                for classification, confidence, evidence and action plan.
+              </p>
+            </div>
+            <label className="voice-language-label">
+              Voice language
+              <select
+                value={voiceLanguage}
+                onChange={(e) => setVoiceLanguage(e.target.value)}
+              >
+                <option value="en-IN">English (India)</option>
+                <option value="hi-IN">Hindi</option>
+                <option value="mr-IN">Marathi</option>
+              </select>
+            </label>
+          </div>
+
           <form onSubmit={analyze}>
             <label>Product name</label>
-            <input
-              value={form.product_name}
-              onChange={(e) => update("product_name", e.target.value)}
-              required
-            />
+            <div className="voice-field">
+              <input
+                value={form.product_name}
+                onChange={(e) => update("product_name", e.target.value)}
+                required
+              />
+              <VoiceInput
+                value={form.product_name}
+                onChange={(value) => update("product_name", value)}
+                language={voiceLanguage}
+              />
+            </div>
 
             <label>Ingredients / components</label>
-            <input
-              value={form.ingredients}
-              onChange={(e) => update("ingredients", e.target.value)}
-              placeholder="Comma separated"
-            />
+            <div className="voice-field">
+              <input
+                value={form.ingredients}
+                onChange={(e) => update("ingredients", e.target.value)}
+                placeholder="Comma separated"
+              />
+              <VoiceInput
+                value={form.ingredients}
+                onChange={(value) => update("ingredients", value)}
+                language={voiceLanguage}
+              />
+            </div>
 
             <label>Intended use</label>
-            <textarea
-              value={form.purpose}
-              onChange={(e) => update("purpose", e.target.value)}
-            />
+            <div className="voice-field">
+              <textarea
+                value={form.purpose}
+                onChange={(e) => update("purpose", e.target.value)}
+              />
+              <VoiceInput
+                value={form.purpose}
+                onChange={(value) => update("purpose", value)}
+                language={voiceLanguage}
+              />
+            </div>
 
             <label>Product type</label>
             <select
@@ -452,10 +504,10 @@ function Dashboard() {
                   </div>
                   <h3>Confidence</h3>
                   <div className="confidence">
-                    {Math.round((result.confidence?.score || 0) * 100)}%
+                    {Math.round((typeof result.confidence?.score === "number" ? result.confidence.score : 0) * 100)}%
                   </div>
                   <strong>{toStr(result.confidence?.level || result.confidence?.label || "")}</strong>
-                  <p className="muted">{toStr(result.confidence?.warning || result.confidence?.meaning || "")}</p>
+                  <p className="muted">{toStr(result.confidence?.warning || result.confidence?.meaning || "Confidence is supplied by the backend evidence-analysis pipeline.")}</p>
                 </div>
               </div>
 
@@ -473,7 +525,7 @@ function Dashboard() {
                     <article className="evidence" key={e.id || idx}>
                       <div className="evidence-top">
                         <strong>{toStr(e.title || e.source || e.id || `Evidence ${idx + 1}`)}</strong>
-                        <span>{typeof e.score === "number" ? Math.round(e.score) : toStr(e.score)}</span>
+                        <span>{formatEvidenceScore(e.score)}</span>
                       </div>
                       <p>{toStr(e.text || "")}</p>
                       <small>
